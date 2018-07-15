@@ -20,6 +20,8 @@ import aboutPic from '../images/about.jpg';
 import coach1Pic from '../images/littlekid.jpeg';
 import yakPic from '../images/yak.jpg';
 import anthonyPic from '../images/bio-anthony.jpg';
+import lyneePic from '../images/bio-lynee.jpg';
+
 
 import './style.css';
 
@@ -124,7 +126,7 @@ class About extends Component {
             </Row>
             <Row>
               <Col xs="2">
-                <img className="coachPic" src={yakPic} />
+                <img className="coachPic" src={lyneePic} />
                 <h5>Lynee Pina</h5>
               </Col>
               <Col xs="8">
