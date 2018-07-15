@@ -1,9 +1,9 @@
-.vertaPic {
+.vertiPic {
   width: 100%;
   height: auto;
   opacity: 0.6;
 }
-.vertaText {
+.vertiText {
   position: absolute;
   top: 14%;
   left: 8%;
@@ -11,7 +11,7 @@
   font-size: 6vw;
 }
 
-.vertaPicDiv {
+.vertiPicDiv {
   position: relative;
 }
 

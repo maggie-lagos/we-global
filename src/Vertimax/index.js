@@ -16,11 +16,11 @@ import {
   Col,
 } from 'reactstrap';
 
-import vertaPic from '../images/verta.jpg';
+import vertiPic from '../images/verti.jpg';
 
 import './style.css';
 
-class Vertamax extends Component {
+class Vertimax extends Component {
   constructor(props) {
     super(props);
 
@@ -51,8 +51,8 @@ class Vertamax extends Component {
                   Training
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem href="/vertamax">Vertamax</DropdownItem>
-                  <DropdownItem href="/strength">Strength/Speed</DropdownItem>
+                  <DropdownItem href="/vertimax">Vertimax</DropdownItem>
+                  <DropdownItem href="/strength">Strength</DropdownItem>
                   <DropdownItem href="/yoga"> Yoga </DropdownItem>
                   <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
                 </DropdownMenu>
@@ -79,9 +79,9 @@ class Vertamax extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-        <div className="vertaPicDiv">
-          <img className="vertaPic" src={vertaPic} />
-          <h2 className="vertaText">Vertamax</h2>
+        <div className="vertiPicDiv">
+          <img className="vertiPic" src={vertiPic} />
+          <h2 className="vertiText">Vertimax</h2>
         </div>
         <Container className="containerStyle">
           <Row>
@@ -116,4 +116,4 @@ class Vertamax extends Component {
     );
   }
 }
-export default Vertamax;
+export default Vertimax;

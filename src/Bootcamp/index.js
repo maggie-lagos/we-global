@@ -53,7 +53,7 @@ class Bootcamp extends Component {
                   Training
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem href="/vertamax">Vertamax/Agility</DropdownItem>
+                  <DropdownItem href="/vertimax">Vertimax/Agility</DropdownItem>
                   <DropdownItem href="/strength">Strength</DropdownItem>
                   <DropdownItem href="/yoga"> Yoga </DropdownItem>
                   <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>

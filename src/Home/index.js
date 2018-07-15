@@ -90,49 +90,47 @@ class Home extends Component {
       <div className="App">
         <div>
           <Navbar color="light" light expand="md">
-            <NavbarBrand href="/home">LOGO HERE</NavbarBrand>
-            <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav navbar>
-                <NavItem>
-                  <NavLink active href="/home">
-                    Home
-                  </NavLink>
-                </NavItem>
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret>
-                    Training
-                  </DropdownToggle>
-                  <DropdownMenu right>
-                    <DropdownItem href="/vertamax">
-                      Vertamax/Agility
-                    </DropdownItem>
-                    <DropdownItem href="/strength">Strength</DropdownItem>
-                    <DropdownItem href="/yoga"> Yoga </DropdownItem>
-                    <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
-                <NavItem>
-                  <NavLink href="/events/">Events</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/about/">About Us</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/contact/">Contact</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/contact/">
-                    <i className="fa fa-facebook-square" />
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/contact/">
-                    <i class="fa fa-instagram" />
-                  </NavLink>
-                </NavItem>
-              </Nav>
-            </Collapse>
+              <NavbarBrand href="/home">LOGO HERE</NavbarBrand>
+              <NavbarToggler onClick={this.toggle} />
+              <Collapse isOpen={this.state.isOpen} navbar>
+                  <Nav navbar>
+                      <NavItem>
+                          <NavLink href="/home">Home</NavLink>
+                      </NavItem>
+                      <UncontrolledDropdown nav inNavbar>
+                          <DropdownToggle nav caret>
+                              Training
+                          </DropdownToggle>
+                          <DropdownMenu right>
+                              <DropdownItem href="/vertimax">Vertimax</DropdownItem>
+                              <DropdownItem href="/strength">Strength</DropdownItem>
+                              <DropdownItem href="/yoga"> Yoga </DropdownItem>
+                              <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
+                          </DropdownMenu>
+                      </UncontrolledDropdown>
+                      <NavItem>
+                          <NavLink href="/events/">Events</NavLink>
+                      </NavItem>
+                      <NavItem>
+                          <NavLink active href="/about/">
+                              About Us
+                          </NavLink>
+                      </NavItem>
+                      <NavItem>
+                          <NavLink href="/contact/">Contact</NavLink>
+                      </NavItem>
+                      <NavItem>
+                          <NavLink href="https://www.facebook.com/weglobalfitness/">
+                              <i className="fa fa-facebook-square" />
+                          </NavLink>
+                      </NavItem>
+                      <NavItem>
+                          <NavLink href="https://www.instagram.com/antsenior3/">
+                              <i class="fa fa-instagram" />
+                          </NavLink>
+                      </NavItem>
+                  </Nav>
+              </Collapse>
           </Navbar>
         </div>
 

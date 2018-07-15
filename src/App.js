@@ -12,7 +12,7 @@ import Bootcamp from './Bootcamp';
 import Contact from './Contact';
 import Events from './Events';
 import Strength from './Strength';
-import Vertamax from './Vertamax';
+import Vertimax from './Vertimax';
 import Yoga from './Yoga';
 
 import logo from './logo.svg';
@@ -27,7 +27,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/home" component={Home} />
 
-          <Route exact path="/vertamax" component={Vertamax} />
+          <Route exact path="/vertimax" component={Vertimax} />
           <Route exact path="/strength" component={Strength} />
           <Route exact path="/yoga" component={Yoga} />
           <Route exact path="/bootcamp" component={Bootcamp} />

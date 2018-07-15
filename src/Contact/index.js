@@ -54,8 +54,8 @@ class Contact extends Component {
                     Training
                   </DropdownToggle>
                   <DropdownMenu right>
-                    <DropdownItem href="/vertamax">
-                      Vertamax/Agility
+                    <DropdownItem href="/vertimax">
+                      Vertimax
                     </DropdownItem>
                     <DropdownItem href="/strength">Strength</DropdownItem>
                     <DropdownItem href="/yoga"> Yoga </DropdownItem>

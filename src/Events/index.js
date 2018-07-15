@@ -46,8 +46,8 @@ class Events extends Component {
                   Training
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem href="/vertamax">Vertamax</DropdownItem>
-                  <DropdownItem href="/strength">Strength/Speed</DropdownItem>
+                  <DropdownItem href="/vertimax">Vertimax</DropdownItem>
+                  <DropdownItem href="/strength">Strength</DropdownItem>
                   <DropdownItem href="/yoga"> Yoga </DropdownItem>
                   <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
                 </DropdownMenu>
