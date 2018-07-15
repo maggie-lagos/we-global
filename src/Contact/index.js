@@ -54,19 +54,17 @@ class Contact extends Component {
                     Training
                   </DropdownToggle>
                   <DropdownMenu right>
-                    <DropdownItem href="/vertimax">
-                      Vertimax
-                    </DropdownItem>
+                    <DropdownItem href="/vertimax">Vertimax</DropdownItem>
                     <DropdownItem href="/strength">Strength</DropdownItem>
                     <DropdownItem href="/yoga"> Yoga </DropdownItem>
                     <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
-                  <NavLink href="/events/">Events</NavLink>
+                  <NavLink href="/about/">About Us</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/about/">About Us</NavLink>
+                  <NavLink href="/events/">Book an Appointment</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink active href="/contact/">
@@ -74,12 +72,12 @@ class Contact extends Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/contact/">
+                  <NavLink href="https://www.facebook.com/weglobalfitness/">
                     <i className="fa fa-facebook-square" />
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink active href="/contact/">
+                  <NavLink href="https://www.instagram.com/antsenior3/">
                     <i class="fa fa-instagram" />
                   </NavLink>
                 </NavItem>

@@ -58,21 +58,21 @@ class Strength extends Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="/events/">Events</NavLink>
+                <NavLink href="/about/">About Us</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/about/">About Us</NavLink>
+                <NavLink href="/events/">Book an Appointment</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/contact/">Contact</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact/">
+                <NavLink href="https://www.facebook.com/weglobalfitness/">
                   <i className="fa fa-facebook-square" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact/">
+                <NavLink href="https://www.instagram.com/antsenior3/">
                   <i class="fa fa-instagram" />
                 </NavLink>
               </NavItem>

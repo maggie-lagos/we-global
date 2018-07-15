@@ -53,29 +53,41 @@ class Events extends Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink active href="/events/">
-                  Events
-                </NavLink>
+                <NavLink href="/about/">About Us</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/about/">About Us</NavLink>
+                <NavLink active href="/events/">
+                  Book an Appointment
+                </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/contact/">Contact</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact/">
+                <NavLink href="https://www.facebook.com/weglobalfitness/">
                   <i className="fa fa-facebook-square" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact/">
+                <NavLink href="https://www.instagram.com/antsenior3/">
                   <i class="fa fa-instagram" />
                 </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
+        <div>
+          <iframe
+            src="https://app.acuityscheduling.com/schedule.php?owner=15272497"
+            width="100%"
+            height="800"
+            frameBorder="0"
+          />
+          <script
+            src="https://d3gxy7nm8y4yjr.cloudfront.net/js/embed.js"
+            type="text/javascript"
+          />
+        </div>
       </div>
     );
   }

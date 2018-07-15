@@ -62,12 +62,12 @@ class About extends Component {
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="/events/">Events</NavLink>
-              </NavItem>
-              <NavItem>
                 <NavLink active href="/about/">
                   About Us
                 </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/events/">Book an Appointment</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/contact/">Contact</NavLink>
@@ -128,27 +128,33 @@ class About extends Component {
                 <h5>Lynee Pina</h5>
               </Col>
               <Col xs="8">
-                <p className="coachText">It's a yak! Specialties are strength training and developing
-                a strength training program.</p>
+                <p className="coachText">
+                  It's a yak! Specialties are strength training and developing a
+                  strength training program.
+                </p>
               </Col>
             </Row>
             <Row>
-                <Col xs="2">
-                    <img className="coachPic" src={yakPic} />
-                    <h5>Charles Thomas</h5>
-                </Col>
-                <Col xs="8">
-                    <p className="coachText">It's a yak! Special is strength training.</p>
-                </Col>
+              <Col xs="2">
+                <img className="coachPic" src={yakPic} />
+                <h5>Charles Thomas</h5>
+              </Col>
+              <Col xs="8">
+                <p className="coachText">
+                  It's a yak! Special is strength training.
+                </p>
+              </Col>
             </Row>
             <Row>
-                <Col xs="2">
-                    <img className="coachPic" src={yakPic} />
-                    <h5>Yoga Instructor</h5>
-                </Col>
-                <Col xs="8">
-                    <p className="coachText">It's a yak! Special is strength training.</p>
-                </Col>
+              <Col xs="2">
+                <img className="coachPic" src={yakPic} />
+                <h5>Yoga Instructor</h5>
+              </Col>
+              <Col xs="8">
+                <p className="coachText">
+                  It's a yak! Special is strength training.
+                </p>
+              </Col>
             </Row>
           </Container>
         </div>
