@@ -28,8 +28,34 @@ class Home extends Component {
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false,
+      isDesktop: false,
+      isWideDesktop: false,
+      isTable: false,
+      isPhone: false,
     };
+
+    this.updatePredicate = this.updatePredicate.bind(this);
   }
+
+  componentDidMount() {
+    this.updatePredicate();
+    window.addEventListener('resize', this.updatePredicate);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updatePredicate);
+  }
+
+  updatePredicate() {
+    375, 768, 1024, 1366;
+    if (window.innerWidth > 1365) {
+    } else if (window.innerWidth > 1023) {
+    } else if (window.innerWidth > 767) {
+    } else {
+    }
+    this.setState({ isDesktop: window.innerWidth > 1450 });
+  }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen,
@@ -89,7 +115,6 @@ class Home extends Component {
 
         <div className="dashboardPicDiv">
           <img className="dashboardPicStyle" src={dashboardPic} />
-          <h2 className="dashboardPicText">- Train, Fight, Win</h2>
         </div>
         <div />
         <div className="whoWeAre">
