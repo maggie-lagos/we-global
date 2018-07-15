@@ -1,0 +1,32 @@
+.bootcampPic2 {
+  width: 68%;
+  height: auto;
+
+  transform: rotate(90deg);
+}
+.bootcampPic {
+  width: 35%;
+  height: auto;
+}
+.bootcampText {
+  position: absolute;
+  top: 14%;
+  left: 21%;
+  font-family: cursive;
+  font-size: 6vw;
+}
+
+.bootcampPicDiv {
+  position: relative;
+}
+
+video {
+  object-fit: cover;
+}
+
+.containerStyle {
+  text-align: left;
+  margin: 0px;
+  margin-left: 2% !important;
+  margin-top: 4%;
+}

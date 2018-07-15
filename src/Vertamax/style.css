@@ -1,0 +1,27 @@
+.vertaPic {
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+}
+.vertaText {
+  position: absolute;
+  top: 14%;
+  left: 8%;
+  font-family: fantasy;
+  font-size: 6vw;
+}
+
+.vertaPicDiv {
+  position: relative;
+}
+
+video {
+  object-fit: cover;
+}
+
+.containerStyle {
+  text-align: left;
+  margin: 0px;
+  margin-left: 2% !important;
+  margin-top: 4%;
+}

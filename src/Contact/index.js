@@ -11,7 +11,13 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
+  Container,
+  Row,
+  Col,
+  Button,
 } from 'reactstrap';
+
+import './style.css';
 
 class Contact extends Component {
   constructor(props) {
@@ -27,10 +33,13 @@ class Contact extends Component {
       isOpen: !this.state.isOpen,
     });
   }
+
+  submitForm() {
+    console.log('yay');
+  }
   render() {
     return (
       <div className="App">
-        <header className="App-header" />
         <div>
           <Navbar color="light" light expand="md">
             <NavbarBrand href="/home">LOGO HERE</NavbarBrand>
@@ -45,10 +54,12 @@ class Contact extends Component {
                     Training
                   </DropdownToggle>
                   <DropdownMenu right>
-                    <DropdownItem>Vertamax</DropdownItem>
-                    <DropdownItem>Strength/Speed</DropdownItem>
-                    <DropdownItem> Yoga </DropdownItem>
-                    <DropdownItem>Bootcamp</DropdownItem>
+                    <DropdownItem href="/vertamax">
+                      Vertamax/Agility
+                    </DropdownItem>
+                    <DropdownItem href="/strength">Strength</DropdownItem>
+                    <DropdownItem href="/yoga"> Yoga </DropdownItem>
+                    <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
@@ -62,11 +73,74 @@ class Contact extends Component {
                     Contact
                   </NavLink>
                 </NavItem>
+                <NavItem>
+                  <NavLink href="/contact/">
+                    <i className="fa fa-facebook-square" />
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink active href="/contact/">
+                    <i class="fa fa-instagram" />
+                  </NavLink>
+                </NavItem>
               </Nav>
             </Collapse>
           </Navbar>
         </div>
-        <header />
+        <div>
+          <br />
+          <h2>Contact us</h2>
+          <br />
+          <p>We are always happy to hear your questions and concerns</p>
+        </div>
+        <div>
+          <Container className="containerStyle">
+            <Row>
+              <Col xs="4" />
+              <Col xs="2">
+                <p>Name:</p>
+              </Col>
+
+              <Col xs="6">
+                <input className="contactText" type="text" name="blah" />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs="4" />
+              <Col xs="2">
+                <p>Email:</p>
+              </Col>
+
+              <Col xs="6">
+                <input className="contactText" type="text" name="blah2" />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs="4" />
+              <Col xs="2">
+                <p>Message:</p>
+              </Col>
+
+              <Col xs="6">
+                <textarea className="contactText" type="text" name="blah3" />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs="4" />
+              <Col xs="4" />
+
+              <Col xs="2">
+                <Button
+                  color="primary"
+                  className="submitButton"
+                  onClick={() => this.submitForm()}
+                >
+                  Submit
+                </Button>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </div>
     );
   }

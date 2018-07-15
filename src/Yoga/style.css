@@ -1,0 +1,26 @@
+.yogaPic {
+  width: 100%;
+  height: auto;
+}
+.yogaText {
+  position: absolute;
+  top: 14%;
+  left: 8%;
+  font-family: cursive;
+  font-size: 6vw;
+}
+
+.yogaPicDiv {
+  position: relative;
+}
+
+video {
+  object-fit: cover;
+}
+
+.containerStyle {
+  text-align: left;
+  margin: 0px;
+  margin-left: 2% !important;
+  margin-top: 4%;
+}

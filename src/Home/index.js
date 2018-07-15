@@ -11,7 +11,16 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
+  Container,
+  Row,
+  Col,
 } from 'reactstrap';
+
+import dashboardPic from '../images/FullSizeRender6.jpeg';
+import facilityPic from '../images/speed_hero.jpg';
+
+import './style.css';
+
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -26,10 +35,10 @@ class Home extends Component {
       isOpen: !this.state.isOpen,
     });
   }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header" />
         <div>
           <Navbar color="light" light expand="md">
             <NavbarBrand href="/home">LOGO HERE</NavbarBrand>
@@ -46,8 +55,10 @@ class Home extends Component {
                     Training
                   </DropdownToggle>
                   <DropdownMenu right>
-                    <DropdownItem href="/vertamax">Vertamax</DropdownItem>
-                    <DropdownItem href="/strength">Strength/Speed</DropdownItem>
+                    <DropdownItem href="/vertamax">
+                      Vertamax/Agility
+                    </DropdownItem>
+                    <DropdownItem href="/strength">Strength</DropdownItem>
                     <DropdownItem href="/yoga"> Yoga </DropdownItem>
                     <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
                   </DropdownMenu>
@@ -75,7 +86,43 @@ class Home extends Component {
             </Collapse>
           </Navbar>
         </div>
-        <div>Picture here?</div>
+
+        <div className="dashboardPicDiv">
+          <img className="dashboardPicStyle" src={dashboardPic} />
+          <h2 className="dashboardPicText">- Train, Fight, Win</h2>
+        </div>
+        <div />
+        <div className="whoWeAre">
+          <h3>WHO WE ARE</h3>
+          <p className="whoWeAreText">
+            Our Philosophy @IAmGlobal is very simple. It is a methodology that
+            can be applied to everyday life. There are 6 simple steps which are:
+            Eat, Sleep, Train & Train, Practice, Play. We offer 4 types of
+            training, specializing in student athlete training.
+          </p>
+        </div>
+        <Container className="containerStyle">
+          <Row>
+            <Col xs="8">
+              <h4>FACILITY</h4>
+              <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
+              <div>Location: Somewhere in Virginia</div>
+              <div>Description of Facility: iz a nice place lolz</div>
+              <br />
+              <img className="facilityPic" src={facilityPic} />
+            </Col>
+            <Col xs="4" className="eventDiv">
+              <h4>UPCOMING EVENTS</h4>
+              <i className="fa fa-calendar" />
+              <div> Name: Anthonys special party</div>
+              <div>When: July 17th from 10am to 4pm</div>
+              <br />
+              <i className="fa fa-calendar" />
+              <div> Name: Pump iron with jimmy</div>
+              <div>When: September 5th from 12pm to 3pm</div>
+            </Col>
+          </Row>
+        </Container>
       </div>
     );
   }

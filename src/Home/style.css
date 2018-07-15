@@ -1,0 +1,42 @@
+.dashboardPicStyle {
+  width: 100%;
+  height: auto;
+}
+
+.whoWeAre {
+  background-color: lightgrey;
+}
+.whoWeAreText {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.containerStyle {
+  margin-width: none;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.facilityPic {
+  width: 95%;
+  height: auto;
+}
+
+.eventDiv {
+  border-style: solid;
+  padding: 2%;
+}
+
+.dashboardPicText {
+  position: absolute;
+  top: 7%;
+  right: 10%;
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 4vw;
+}
+
+.dashboardPicDiv {
+  position: relative;
+}

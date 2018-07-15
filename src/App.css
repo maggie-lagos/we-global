@@ -23,6 +23,22 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+.boldHeader {
+  font-weight: bold;
+  color: black !important;
+}
+
+.scheduleLink {
+  color: blue;
 }
