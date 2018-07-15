@@ -19,6 +19,7 @@ import {
 import aboutPic from '../images/about.jpg';
 import coach1Pic from '../images/littlekid.jpeg';
 import yakPic from '../images/yak.jpg';
+import anthonyPic from '../images/bio-anthony.jpg';
 
 import './style.css';
 
@@ -54,7 +55,7 @@ class About extends Component {
                   Training
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem href="/vertamax">Vertamax/Agility</DropdownItem>
+                  <DropdownItem href="/vertamax">Vertimax</DropdownItem>
                   <DropdownItem href="/strength">Strength</DropdownItem>
                   <DropdownItem href="/yoga"> Yoga </DropdownItem>
                   <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
@@ -72,12 +73,12 @@ class About extends Component {
                 <NavLink href="/contact/">Contact</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact/">
+                <NavLink href="https://www.facebook.com/weglobalfitness/">
                   <i className="fa fa-facebook-square" />
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contact/">
+                <NavLink href="https://www.instagram.com/antsenior3/">
                   <i class="fa fa-instagram" />
                 </NavLink>
               </NavItem>
@@ -99,13 +100,13 @@ class About extends Component {
           <Container className="containerStyle containerStyle2">
             <Row>
               <Col xs="2">
-                <img className="coachPic" src={coach1Pic} />
-                <h5>Little Kid</h5>
+                <img className="coachPic" src={anthonyPic} />
+                <h5>Anthony Melvin</h5>
                 <br />
               </Col>
               <Col xs="8">
                 <p className="coachText">
-                  Little kid is a great teacher. Obviously. text text
+                  Anthony is the humble founder of I Am Global Sports. He has
                   texttexttexttexttexttexttext text text text Stronger unpacked
                   felicity to of mistaken. Fanny at wrong table ye in. Be on
                   easily cannot innate in lasted months on. Differed and and
@@ -124,11 +125,30 @@ class About extends Component {
             <Row>
               <Col xs="2">
                 <img className="coachPic" src={yakPic} />
-                <h5>A Yak</h5>
+                <h5>Lynee Pina</h5>
               </Col>
               <Col xs="8">
-                <p className="coachText">It's a yak!</p>
+                <p className="coachText">It's a yak! Specialties are strength training and developing
+                a strength training program.</p>
               </Col>
+            </Row>
+            <Row>
+                <Col xs="2">
+                    <img className="coachPic" src={yakPic} />
+                    <h5>Charles Thomas</h5>
+                </Col>
+                <Col xs="8">
+                    <p className="coachText">It's a yak! Special is strength training.</p>
+                </Col>
+            </Row>
+            <Row>
+                <Col xs="2">
+                    <img className="coachPic" src={yakPic} />
+                    <h5>Yoga Instructor</h5>
+                </Col>
+                <Col xs="8">
+                    <p className="coachText">It's a yak! Special is strength training.</p>
+                </Col>
             </Row>
           </Container>
         </div>
