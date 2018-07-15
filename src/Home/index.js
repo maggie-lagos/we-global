@@ -30,7 +30,7 @@ class Home extends Component {
       isOpen: false,
       isDesktop: false,
       isWideDesktop: false,
-      isTable: false,
+      isTablet: false,
       isPhone: false,
     };
 
@@ -47,13 +47,36 @@ class Home extends Component {
   }
 
   updatePredicate() {
-    375, 768, 1024, 1366;
+    //  375, 768, 1024, 1366;
     if (window.innerWidth > 1365) {
+      this.setState({
+        isWideDesktop: true,
+        isDesktop: false,
+        isTablet: false,
+        isPhone: false,
+      });
     } else if (window.innerWidth > 1023) {
+      this.setState({
+        isWideDesktop: false,
+        isDesktop: true,
+        isTablet: false,
+        isPhone: false,
+      });
     } else if (window.innerWidth > 767) {
+      this.setState({
+        isWideDesktop: false,
+        isDesktop: false,
+        isTablet: true,
+        isPhone: false,
+      });
     } else {
+      this.setState({
+        isWideDesktop: false,
+        isDesktop: false,
+        isTablet: false,
+        isPhone: true,
+      });
     }
-    this.setState({ isDesktop: window.innerWidth > 1450 });
   }
 
   toggle() {
@@ -126,28 +149,257 @@ class Home extends Component {
             training, specializing in student athlete training.
           </p>
         </div>
-        <Container className="containerStyle">
-          <Row>
-            <Col xs="8">
-              <h4>FACILITY</h4>
-              <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
-              <div>Location: Somewhere in Virginia</div>
-              <div>Description of Facility: iz a nice place lolz</div>
-              <br />
-              <img className="facilityPic" src={facilityPic} />
-            </Col>
-            <Col xs="4" className="eventDiv">
-              <h4>UPCOMING EVENTS</h4>
-              <i className="fa fa-calendar" />
-              <div> Name: Anthonys special party</div>
-              <div>When: July 17th from 10am to 4pm</div>
-              <br />
-              <i className="fa fa-calendar" />
-              <div> Name: Pump iron with jimmy</div>
-              <div>When: September 5th from 12pm to 3pm</div>
-            </Col>
-          </Row>
-        </Container>
+        {this.state.isWideDesktop && (
+          <Container className="containerStyle">
+            <Row>
+              <Col xs="8">
+                <h4>FACILITY</h4>
+                <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
+                <div>Location: Somewhere in Virginia</div>
+                <br />
+                <div>
+                  {' '}
+                  &nbsp;&nbsp; iz a nice place. Really large building. Grey.{' '}
+                </div>
+                <br />
+                <img className="facilityPic" src={facilityPic} />
+              </Col>
+              <Col xs="4" className="eventDiv">
+                <h4>UPCOMING EVENTS</h4>
+                <div className="eventInnerDiv">
+                  <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br />
+                  <i className="fa fa-calendar" />
+                  <div> Name: Pump iron with jimmy</div>
+                  <div>When: September 5th from 12pm to 3pm</div>
+                  <br />
+                  <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br />
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        )}
+        {this.state.isDesktop && (
+          <Container className="containerStyle">
+            <Row>
+              <Col xs="8">
+                <h4>FACILITY</h4>
+                <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
+                <div>Location: Somewhere in Virginia</div>
+                <br />
+                <div>
+                  {' '}
+                  &nbsp;&nbsp; iz a nice place. Really large building. Grey.{' '}
+                </div>
+                <br />
+                <img className="facilityPic" src={facilityPic} />
+              </Col>
+              <Col xs="4" className="eventDiv">
+                <h4>UPCOMING EVENTS</h4>
+                <div className="eventInnerDiv">
+                  <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br />
+                  <i className="fa fa-calendar" />
+                  <div> Name: Pump iron with jimmy</div>
+                  <div>When: September 5th from 12pm to 3pm</div>
+                  <br />
+                  <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br />
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        )}
+        {this.state.isTablet && (
+          <Container className="containerStyle">
+            <Row>
+              <Col xs="8">
+                <h4>FACILITY</h4>
+                <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
+                <div>Location: Somewhere in Virginia</div>
+                <br />
+                <div>
+                  {' '}
+                  &nbsp;&nbsp; iz a nice place. Really large building. Grey.{' '}
+                </div>
+                <br />
+                <img className="facilityPic" src={facilityPic} />
+              </Col>
+              <Col xs="4" className="eventDiv">
+                <h4>UPCOMING EVENTS</h4>
+                <div className="eventInnerDiv">
+                  <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br />
+                  <i className="fa fa-calendar" />
+                  <div> Name: Pump iron with jimmy</div>
+                  <div>When: September 5th from 12pm to 3pm</div>
+                  <br />
+                  <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                  <div> Name: Anthonys special party</div>
+                  <div>When: July 17th from 10am to 4pm</div>
+                  <br /> <i className="fa fa-calendar" />
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        )}
+        {this.state.isPhone && (
+          <Container className="containerStyle">
+            <Row>
+              <Col xs="12">
+                <h4>FACILITY</h4>
+                <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
+                <div>Location: Somewhere in Virginia</div>
+                <br />
+                <div>
+                  {' '}
+                  &nbsp;&nbsp; iz a nice place. Really large building. Grey.{' '}
+                </div>
+                <br />
+                <img className="facilityPic" src={facilityPic} />
+                <br />
+                <br />
+                <div className="eventDiv">
+                  <h4>UPCOMING EVENTS</h4>
+                  <div className="eventInnerDiv">
+                    <i className="fa fa-calendar" />
+                    <div> Name: Anthonys special party</div>
+                    <div>When: July 17th from 10am to 4pm</div>
+                    <br />
+                    <i className="fa fa-calendar" />
+                    <div> Name: Pump iron with jimmy</div>
+                    <div>When: September 5th from 12pm to 3pm</div>
+                    <br />
+                    <i className="fa fa-calendar" />
+                    <div> Name: Anthonys special party</div>
+                    <div>When: July 17th from 10am to 4pm</div>
+                    <br /> <i className="fa fa-calendar" />
+                    <div> Name: Anthonys special party</div>
+                    <div>When: July 17th from 10am to 4pm</div>
+                    <br /> <i className="fa fa-calendar" />
+                    <div> Name: Anthonys special party</div>
+                    <div>When: July 17th from 10am to 4pm</div>
+                    <br /> <i className="fa fa-calendar" />
+                    <div> Name: Anthonys special party</div>
+                    <div>When: July 17th from 10am to 4pm</div>
+                    <br /> <i className="fa fa-calendar" />
+                  </div>
+                </div>
+              </Col>
+              <Col xs="4" />
+            </Row>
+          </Container>
+        )}
       </div>
     );
   }

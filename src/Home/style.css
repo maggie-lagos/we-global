@@ -16,6 +16,48 @@
   text-align: left;
   margin-left: 5%;
 }
+@media screen and (min-width: 375px) {
+  .eventDiv {
+    max-width: 323px;
+    max-height: 300px;
+  }
+  .eventInnerDiv {
+    max-height: 139px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .containerStyle {
+    max-width: 717px !important;
+  }
+  .eventDiv {
+    max-height: 441px;
+  }
+  .eventInnerDiv {
+    max-height: 344px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .containerStyle {
+    max-width: 966px !important;
+  }
+  .eventDiv {
+    max-height: 547px;
+  }
+  .eventInnerDiv {
+    max-height: 470px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  .containerStyle {
+    max-width: 1293px !important;
+  }
+  .eventDiv {
+    max-height: 688px;
+  }
+  .eventInnerDiv {
+    max-height: 603px;
+  }
+}
 
 .facilityPic {
   width: 95%;
@@ -25,6 +67,11 @@
 .eventDiv {
   border-style: solid;
   padding: 2%;
+  background-color: lightblue;
+}
+
+.eventInnerDiv {
+  overflow-y: scroll;
 }
 
 .dashboardPicText {
