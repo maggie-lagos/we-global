@@ -27,8 +27,33 @@ class Vertimax extends Component {
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false,
+      isPhone: false,
     };
+
+    this.updatePredicate = this.updatePredicate.bind(this);
   }
+
+  componentDidMount() {
+    this.updatePredicate();
+    window.addEventListener('resize', this.updatePredicate);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updatePredicate);
+  }
+
+  updatePredicate() {
+    if (window.innerWidth > 767) {
+      this.setState({
+        isPhone: false,
+      });
+    } else {
+      this.setState({
+        isPhone: true,
+      });
+    }
+  }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen,
@@ -84,35 +109,73 @@ class Vertimax extends Component {
         <div className="vertiPicDiv">
           <img className="vertiPic" src={vertiPic} />
         </div>
-        <Container className="containerStyle">
-          <Row>
-            <Col xs="8">
-              <h5>
-                The Goal of our bootcamp sessions is to bring you closer to your
-                death. Monica yogi is a professional at and has been leading
-                class for 20 years text text text Udsafdf fdsafddf fdsafdfasf.
-              </h5>
-              <br />
-              <h6 className="scheduleLink">Schedule a class today!</h6>
-            </Col>
-            <Col xs="4">
-              <h4>Pricing and Availability</h4>
-              <div>Bootcamp sessions are offered from: </div>{' '}
-              <div>
-                {' '}
-                6am to 10pm Monday through Saturday (i know this is wrong)
-              </div>
-              <br />
-              <div>Single session: $</div>
-              <div>Single Month of sessions(?): $</div>
-            </Col>
-          </Row>
-          <br />
-          <Row>
-            <Col xs="8" />
-            <Col xs="4" />
-          </Row>
-        </Container>
+        {!this.state.isPhone && (
+          <Container className="containerStyle">
+            <Row>
+              <Col xs="8">
+                <h5>
+                  The Goal of our bootcamp sessions is to bring you closer to
+                  your death. Monica yogi is a professional at and has been
+                  leading class for 20 years text text text Udsafdf fdsafddf
+                  fdsafdfasf.
+                </h5>
+                <br />
+                <h6 className="scheduleLink">Schedule a class today!</h6>
+              </Col>
+              <Col xs="4">
+                <h4>Pricing and Availability</h4>
+                <div>Bootcamp sessions are offered from: </div>{' '}
+                <div>
+                  {' '}
+                  6am to 10pm Monday through Saturday (i know this is wrong)
+                </div>
+                <br />
+                <div>Single session: $</div>
+                <div>Single Month of sessions(?): $</div>
+              </Col>
+            </Row>
+            <br />
+            <Row>
+              <Col xs="8" />
+              <Col xs="4" />
+            </Row>
+          </Container>
+        )}
+        {this.state.isPhone && (
+          <Container className="containerStyle">
+            <Row>
+              <Col xs="12">
+                <h5>
+                  The Goal of our bootcamp sessions is to bring you closer to
+                  your death. Monica yogi is a professional at and has been
+                  leading class for 20 years text text text Udsafdf fdsafddf
+                  fdsafdfasf.
+                </h5>
+                <br />
+                <h6 className="scheduleLink">Schedule a class today!</h6>
+              </Col>
+            </Row>
+            <br />
+            <Row>
+              <Col xs="12">
+                <h4>Pricing and Availability</h4>
+                <div>Bootcamp sessions are offered from: </div>{' '}
+                <div>
+                  {' '}
+                  6am to 10pm Monday through Saturday (i know this is wrong)
+                </div>
+                <br />
+                <div>Single session: $</div>
+                <div>Single Month of sessions(?): $</div>
+              </Col>
+            </Row>
+            <br />
+            <Row>
+              <Col xs="8" />
+              <Col xs="4" />
+            </Row>
+          </Container>
+        )}
       </div>
     );
   }

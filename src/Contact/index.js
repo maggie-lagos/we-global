@@ -161,6 +161,16 @@ class Contact extends Component {
               <Row>
                 <Col xs="4" />
                 <Col xs="1">
+                  <p>Phone:</p>
+                </Col>
+
+                <Col xs="6">
+                  <input className="contactText" type="text" name="blah2" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="4" />
+                <Col xs="1">
                   <p>Email:</p>
                 </Col>
 
@@ -206,6 +216,17 @@ class Contact extends Component {
                   <input className="contactText" type="text" name="blah" />
                 </Col>
               </Row>
+              <Row>
+                <Col xs="4" />
+                <Col xs="1">
+                  <p>Phone:</p>
+                </Col>
+
+                <Col xs="6">
+                  <input className="contactText" type="text" name="blah2" />
+                </Col>
+              </Row>
+
               <Row>
                 <Col xs="4" />
                 <Col xs="1">
@@ -257,6 +278,16 @@ class Contact extends Component {
               <Row>
                 <Col xs="3" />
                 <Col xs="1" className="smallMargin">
+                  <p>Phone:</p>
+                </Col>
+
+                <Col xs="6">
+                  <input className="contactText2" type="text" name="blah2" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="3" />
+                <Col xs="1" className="smallMargin">
                   <p>Email:</p>
                 </Col>
 
@@ -299,6 +330,15 @@ class Contact extends Component {
 
                 <Col xs="9">
                   <input className="contactText2" type="text" name="blah" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="2" className="smallMargin">
+                  <p>Phone:</p>
+                </Col>
+
+                <Col xs="9">
+                  <input className="contactText2" type="text" name="blah2" />
                 </Col>
               </Row>
               <Row>
