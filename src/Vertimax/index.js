@@ -16,7 +16,7 @@ import {
   Col,
 } from 'reactstrap';
 
-import vertiPic from '../images/verti.jpg';
+import vertiPic from '../images/goodVerta.jpg';
 
 import './style.css';
 
@@ -53,8 +53,10 @@ class Vertimax extends Component {
                 <DropdownMenu right>
                   <DropdownItem href="/vertimax">Vertimax</DropdownItem>
                   <DropdownItem href="/strength">Strength</DropdownItem>
-                  <DropdownItem href="/yoga"> Yoga </DropdownItem>
-                  <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
+                  <DropdownItem href="/yoga"> Yoga (Coming soon)</DropdownItem>
+                  <DropdownItem href="/bootcamp">
+                    Bootcamp (Coming soon)
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
@@ -81,7 +83,6 @@ class Vertimax extends Component {
         </Navbar>
         <div className="vertiPicDiv">
           <img className="vertiPic" src={vertiPic} />
-          <h2 className="vertiText">Vertimax</h2>
         </div>
         <Container className="containerStyle">
           <Row>

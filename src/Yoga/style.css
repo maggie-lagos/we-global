@@ -4,14 +4,24 @@
 }
 .yogaText {
   position: absolute;
-  top: 14%;
-  left: 8%;
-  font-family: cursive;
+  top: 6vw;
+  left: 8vw;
+  font-family: sans-serif;
   font-size: 6vw;
+}
+.yogaText2 {
+  position: absolute;
+  top: 26vw;
+  font-family: sans-serif;
+  font-size: 4vw;
+  background-color: grey;
+  opacity: 0.7;
+  width: 100%;
 }
 
 .yogaPicDiv {
-  position: relative;
+  background-color: grey;
+  text-align: center;
 }
 
 video {

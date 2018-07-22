@@ -55,8 +55,10 @@ class Bootcamp extends Component {
                 <DropdownMenu right>
                   <DropdownItem href="/vertimax">Vertimax/Agility</DropdownItem>
                   <DropdownItem href="/strength">Strength</DropdownItem>
-                  <DropdownItem href="/yoga"> Yoga </DropdownItem>
-                  <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
+                  <DropdownItem href="/yoga"> Yoga (Coming soon)</DropdownItem>
+                  <DropdownItem href="/bootcamp">
+                    Bootcamp (Coming soon)
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
@@ -84,38 +86,10 @@ class Bootcamp extends Component {
         <div className="bootcampPicDiv">
           <img className="bootcampPic" src={bootPic} />
           <h2 className="bootcampText">Bootcamp</h2>
+          <div className="bootcampText2">
+            <p>COMING SOON</p>
+          </div>
         </div>
-        <Container className="containerStyle">
-          <Row>
-            <Col xs="8">
-              <h5>
-                The Goal of our bootcamp sessions is to bring you closer to your
-                death. Monica yogi is a professional at and has been leading
-                class for 20 years text text text Udsafdf fdsafddf fdsafdfasf.
-              </h5>
-              <br />
-              <h6 className="scheduleLink">Schedule a class today!</h6>
-            </Col>
-            <Col xs="4">
-              <h4>Pricing and Availability</h4>
-              <div>Bootcamp sessions are offered from: </div>{' '}
-              <div>
-                {' '}
-                6am to 10pm Monday through Saturday (i know this is wrong)
-              </div>
-              <br />
-              <div>Single session: $</div>
-              <div>Single Month of sessions(?): $</div>
-            </Col>
-          </Row>
-          <br />
-          <Row>
-            <Col xs="8">
-              <img className="bootcampPic2" src={bootcampPic} />{' '}
-            </Col>
-            <Col xs="4" />
-          </Row>
-        </Container>
       </div>
     );
   }

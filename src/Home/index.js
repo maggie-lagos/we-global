@@ -16,8 +16,8 @@ import {
   Col,
 } from 'reactstrap';
 
-import dashboardPic from '../images/FullSizeRender6.jpeg';
-import facilityPic from '../images/speed_hero.jpg';
+import dashboardPic from '../images/dashboard2.jpg';
+import facilityPic from '../images/fac.jpg';
 
 import './style.css';
 
@@ -106,8 +106,13 @@ class Home extends Component {
                   <DropdownMenu right>
                     <DropdownItem href="/vertimax">Vertimax</DropdownItem>
                     <DropdownItem href="/strength">Strength</DropdownItem>
-                    <DropdownItem href="/yoga"> Yoga </DropdownItem>
-                    <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
+                    <DropdownItem href="/yoga">
+                      {' '}
+                      Yoga (Coming soon)
+                    </DropdownItem>
+                    <DropdownItem href="/bootcamp">
+                      Bootcamp (Coming soon)
+                    </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>

@@ -7,25 +7,20 @@
 .containerStyle2 {
   border-style: solid;
   padding: 1%;
-  position: absolute;
-  top: 57%;
+
   background-color: white;
 }
 .aboutText {
-  position: absolute;
-  top: 26%;
-  left: 18%;
-  font-family: cursive;
+  font-family: sans-serif;
   font-size: 3vw;
+  margin-left: 6%;
 }
 
 .aboutSubtext {
-  position: absolute;
-  top: 36%;
-  font-family: cursive;
-  font-size: 1.5vw;
+  font-family: serif;
+  font-size: 1.8vw;
   max-width: 50%;
-  left: 25%;
+  margin-left: 3%;
 }
 
 .coachPic {
@@ -39,4 +34,7 @@
 
 .coachText {
   font-size: 1vw;
+}
+.coachText2 {
+  font-size: 2vw;
 }

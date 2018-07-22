@@ -26,8 +26,57 @@ class Contact extends Component {
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false,
+      isDesktop: false,
+      isWideDesktop: false,
+      isTablet: false,
+      isPhone: false,
     };
+
+    this.updatePredicate = this.updatePredicate.bind(this);
   }
+
+  componentDidMount() {
+    this.updatePredicate();
+    window.addEventListener('resize', this.updatePredicate);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updatePredicate);
+  }
+
+  updatePredicate() {
+    //  375, 768, 1024, 1366;
+    if (window.innerWidth > 1365) {
+      this.setState({
+        isWideDesktop: true,
+        isDesktop: false,
+        isTablet: false,
+        isPhone: false,
+      });
+    } else if (window.innerWidth > 1023) {
+      this.setState({
+        isWideDesktop: false,
+        isDesktop: true,
+        isTablet: false,
+        isPhone: false,
+      });
+    } else if (window.innerWidth > 767) {
+      this.setState({
+        isWideDesktop: false,
+        isDesktop: false,
+        isTablet: true,
+        isPhone: false,
+      });
+    } else {
+      this.setState({
+        isWideDesktop: false,
+        isDesktop: false,
+        isTablet: false,
+        isPhone: true,
+      });
+    }
+  }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen,
@@ -56,8 +105,13 @@ class Contact extends Component {
                   <DropdownMenu right>
                     <DropdownItem href="/vertimax">Vertimax</DropdownItem>
                     <DropdownItem href="/strength">Strength</DropdownItem>
-                    <DropdownItem href="/yoga"> Yoga </DropdownItem>
-                    <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
+                    <DropdownItem href="/yoga">
+                      {' '}
+                      Yoga (Coming soon)
+                    </DropdownItem>
+                    <DropdownItem href="/bootcamp">
+                      Bootcamp (Coming soon)
+                    </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
@@ -92,52 +146,194 @@ class Contact extends Component {
           <p>We are always happy to hear your questions and concerns</p>
         </div>
         <div>
-          <Container className="containerStyle">
-            <Row>
-              <Col xs="4" />
-              <Col xs="2">
-                <p>Name:</p>
-              </Col>
+          {this.state.isWideDesktop && (
+            <Container className="containerStyle">
+              <Row>
+                <Col xs="4" />
+                <Col xs="1">
+                  <p>Name:</p>
+                </Col>
 
-              <Col xs="6">
-                <input className="contactText" type="text" name="blah" />
-              </Col>
-            </Row>
-            <Row>
-              <Col xs="4" />
-              <Col xs="2">
-                <p>Email:</p>
-              </Col>
+                <Col xs="6">
+                  <input className="contactText" type="text" name="blah" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="4" />
+                <Col xs="1">
+                  <p>Email:</p>
+                </Col>
 
-              <Col xs="6">
-                <input className="contactText" type="text" name="blah2" />
-              </Col>
-            </Row>
-            <Row>
-              <Col xs="4" />
-              <Col xs="2">
-                <p>Message:</p>
-              </Col>
+                <Col xs="6">
+                  <input className="contactText" type="text" name="blah2" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="4" />
+                <Col xs="1">
+                  <p>Message:</p>
+                </Col>
 
-              <Col xs="6">
-                <textarea className="contactText" type="text" name="blah3" />
-              </Col>
-            </Row>
-            <Row>
-              <Col xs="4" />
-              <Col xs="4" />
+                <Col xs="6">
+                  <textarea className="contactText" type="text" name="blah3" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="4" />
+                <Col xs="1" />
 
-              <Col xs="2">
-                <Button
-                  color="primary"
-                  className="submitButton"
-                  onClick={() => this.submitForm()}
-                >
-                  Submit
-                </Button>
-              </Col>
-            </Row>
-          </Container>
+                <Col xs="2">
+                  <Button
+                    color="primary"
+                    className="submitButton"
+                    onClick={() => this.submitForm()}
+                  >
+                    Submit
+                  </Button>
+                </Col>
+              </Row>
+            </Container>
+          )}
+          {this.state.isDesktop && (
+            <Container className="containerStyle">
+              <Row>
+                <Col xs="4" />
+                <Col xs="1">
+                  <p>Name:</p>
+                </Col>
+
+                <Col xs="6">
+                  <input className="contactText" type="text" name="blah" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="4" />
+                <Col xs="1">
+                  <p>Email:</p>
+                </Col>
+
+                <Col xs="6">
+                  <input className="contactText" type="text" name="blah2" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="4" />
+                <Col xs="1">
+                  <p>Message:</p>
+                </Col>
+
+                <Col xs="6">
+                  <textarea className="contactText" type="text" name="blah3" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="4" />
+                <Col xs="1" />
+
+                <Col xs="2">
+                  <Button
+                    color="primary"
+                    className="submitButton"
+                    onClick={() => this.submitForm()}
+                  >
+                    Submit
+                  </Button>
+                </Col>
+              </Row>
+            </Container>
+          )}
+          {this.state.isTablet && (
+            <Container className="containerStyle">
+              <Row>
+                <Col xs="3" />
+                <Col xs="1" className="smallMargin">
+                  <p>Name:</p>
+                </Col>
+
+                <Col xs="6">
+                  <input className="contactText2" type="text" name="blah" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="3" />
+                <Col xs="1" className="smallMargin">
+                  <p>Email:</p>
+                </Col>
+
+                <Col xs="6">
+                  <input className="contactText2" type="text" name="blah2" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="3" />
+                <Col xs="1" className="smallMargin">
+                  <p>Message:</p>
+                </Col>
+
+                <Col xs="6">
+                  <textarea className="contactText2" type="text" name="blah3" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="3" />
+                <Col xs="1" className="smallMargin" />
+
+                <Col xs="3">
+                  <Button
+                    color="primary"
+                    className="submitButton"
+                    onClick={() => this.submitForm()}
+                  >
+                    Submit
+                  </Button>
+                </Col>
+              </Row>
+            </Container>
+          )}
+          {this.state.isPhone && (
+            <Container className="containerStyle">
+              <Row>
+                <Col xs="2" className="smallMargin">
+                  <p>Name:</p>
+                </Col>
+
+                <Col xs="9">
+                  <input className="contactText2" type="text" name="blah" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="2" className="smallMargin">
+                  <p>Email:</p>
+                </Col>
+
+                <Col xs="9">
+                  <input className="contactText2" type="text" name="blah2" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="2" className="smallMargin">
+                  <p>Message:</p>
+                </Col>
+
+                <Col xs="9">
+                  <textarea className="contactText2" type="text" name="blah3" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="2" className="smallMargin" />
+
+                <Col xs="5">
+                  <Button
+                    color="primary"
+                    className="submitButton"
+                    onClick={() => this.submitForm()}
+                  >
+                    Submit
+                  </Button>
+                </Col>
+              </Row>
+            </Container>
+          )}
         </div>
       </div>
     );

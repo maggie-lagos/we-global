@@ -16,7 +16,7 @@ import {
   Col,
 } from 'reactstrap';
 
-import yogaPic from '../images/yogaPic.jpg';
+import yogaPic from '../images/womanYoga.jpg';
 import yogaPic2 from '../images/yoga2.jpg';
 import yogaVideo from '../images/IMG_0606.MOV';
 
@@ -55,8 +55,10 @@ class Yoga extends Component {
                 <DropdownMenu right>
                   <DropdownItem href="/vertimax">Vertimax</DropdownItem>
                   <DropdownItem href="/strength">Strength</DropdownItem>
-                  <DropdownItem href="/yoga"> Yoga </DropdownItem>
-                  <DropdownItem href="/bootcamp">Bootcamp</DropdownItem>
+                  <DropdownItem href="/yoga"> Yoga (Coming soon)</DropdownItem>
+                  <DropdownItem href="/bootcamp">
+                    Bootcamp (Coming soon)
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
@@ -84,43 +86,10 @@ class Yoga extends Component {
         <div className="yogaPicDiv">
           <img className="yogaPic" src={yogaPic} />
           <h2 className="yogaText">Yoga</h2>
+          <div className="yogaText2">
+            <p>COMING SOON</p>
+          </div>
         </div>
-        <Container className="containerStyle">
-          <Row>
-            <Col xs="8">
-              <h5>
-                The Goal of our yoga sessions is to bring you closer to the
-                earth. Monica yogi is a professional at and has been leading
-                class for 20 years.
-              </h5>
-              <br />
-              <h6 className="scheduleLink">Schedule a class today!</h6>
-            </Col>
-            <Col xs="4">
-              <h4>Pricing and Availability</h4>
-              <div>Yoga sessions are offered from: </div>{' '}
-              <div> 6am to 10pm Monday through Saturday</div>
-              <br />
-              <div>Single session: $15</div>
-              <div>Single Month of sessions(4): $55</div>
-            </Col>
-          </Row>
-          <br />
-          <Row>
-            <Col xs="8">
-              <img className="yogaPic" src={yogaPic2} />
-            </Col>
-            <Col xs="4">
-              <video
-                controls="controls"
-                width="400"
-                height="250"
-                name="Video Name"
-                src={yogaVideo}
-              />
-            </Col>
-          </Row>
-        </Container>
       </div>
     );
   }
