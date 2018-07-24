@@ -14,9 +14,12 @@ import {
   Container,
   Row,
   Col,
+  UncontrolledTooltip,
 } from 'reactstrap';
 
-import aboutPic from '../images/about.jpg';
+import logoPic from '../images/Logo.png';
+
+import aboutPic from '../images/about2.jpg';
 import coach1Pic from '../images/littlekid.jpeg';
 import yakPic from '../images/yak.jpg';
 import anthonyPic from '../images/bio-anthony.jpg';
@@ -72,8 +75,11 @@ class About extends Component {
     return (
       <div>
         {' '}
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/home">LOGO HERE</NavbarBrand>
+        <Navbar light expand="md">
+          <NavbarBrand href="/home">
+            {' '}
+            <img className="logo" src={logoPic} />
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav navbar>
@@ -105,14 +111,26 @@ class About extends Component {
                 <NavLink href="/contact/">Contact</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.facebook.com/weglobalfitness/">
+                <NavLink
+                  href="https://www.facebook.com/weglobalfitness/"
+                  id="fb"
+                >
                   <i className="fa fa-facebook-square" />
                 </NavLink>
+                <UncontrolledTooltip placement="bottom" target="fb">
+                  Facebook
+                </UncontrolledTooltip>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.instagram.com/antsenior3/">
+                <NavLink
+                  href="https://www.instagram.com/antsenior3/"
+                  id="insta"
+                >
                   <i class="fa fa-instagram" />
                 </NavLink>
+                <UncontrolledTooltip placement="bottom" target="insta">
+                  Instagram
+                </UncontrolledTooltip>
               </NavItem>
             </Nav>
           </Collapse>

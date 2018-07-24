@@ -14,8 +14,10 @@ import {
   Container,
   Row,
   Col,
+  UncontrolledTooltip,
 } from 'reactstrap';
 
+import logoPic from '../images/Logo.png';
 import dashboardPic from '../images/dashboard2.jpg';
 import facilityPic from '../images/fac.jpg';
 
@@ -89,8 +91,10 @@ class Home extends Component {
     return (
       <div className="App">
         <div>
-          <Navbar color="light" light expand="md">
-            <NavbarBrand href="/home">LOGO HERE</NavbarBrand>
+          <Navbar light expand="md">
+            <NavbarBrand href="/home">
+              <img className="logo" src={logoPic} />
+            </NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav navbar>
@@ -125,14 +129,26 @@ class Home extends Component {
                   <NavLink href="/contact/">Contact</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://www.facebook.com/weglobalfitness/">
+                  <NavLink
+                    href="https://www.facebook.com/weglobalfitness/"
+                    id="fb"
+                  >
                     <i className="fa fa-facebook-square" />
                   </NavLink>
+                  <UncontrolledTooltip placement="bottom" target="fb">
+                    Facebook
+                  </UncontrolledTooltip>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://www.instagram.com/antsenior3/">
+                  <NavLink
+                    href="https://www.instagram.com/antsenior3/"
+                    id="insta"
+                  >
                     <i class="fa fa-instagram" />
                   </NavLink>
+                  <UncontrolledTooltip placement="bottom" target="insta">
+                    Instagram
+                  </UncontrolledTooltip>
                 </NavItem>
               </Nav>
             </Collapse>
