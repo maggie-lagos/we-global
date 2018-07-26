@@ -5,10 +5,14 @@
 
 .whoWeAre {
   background-color: lightgrey;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  padding-top: 1vw;
 }
 .whoWeAreText {
   margin-left: 3%;
   margin-right: 3%;
+  text-align: left;
 }
 
 .containerStyle {
@@ -65,9 +69,8 @@
 }
 
 .eventDiv {
-  border-style: solid;
+  border-style: double;
   padding: 2%;
-  background-color: lightblue;
 }
 
 .eventInnerDiv {

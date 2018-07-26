@@ -163,10 +163,11 @@ class Home extends Component {
           <h3>WHO WE ARE</h3>
           <p className="whoWeAreText">
             Our Philosophy @IAmGlobal is very simple. It is a methodology that
-            can be applied to everyday life. There are 6 simple steps which are:
-            Eat, Sleep, Train & Train, Practice, Play. We offer 4 types of
-            training, specializing in student athlete training.
+            can be applied to everyday life. <br /> There are 6 simple steps
+            which are: Eat, Sleep, Train & Train, Practice, Play. We offer 4
+            types of training, specializing in student athlete training.
           </p>
+          <p className="whoWeAreText" />
         </div>
         {this.state.isWideDesktop && (
           <Container className="containerStyle">

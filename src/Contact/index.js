@@ -18,6 +18,8 @@ import {
   UncontrolledTooltip,
 } from 'reactstrap';
 
+import axios from 'axios';
+
 import logoPic from '../images/Logo.png';
 
 import './style.css';
@@ -33,9 +35,19 @@ class Contact extends Component {
       isWideDesktop: false,
       isTablet: false,
       isPhone: false,
+      name: '',
+      phone: '',
+      email: '',
+      msg: '',
     };
 
     this.updatePredicate = this.updatePredicate.bind(this);
+    this.handleNameChange = this.handleNameChange.bind(this);
+    this.handlePhoneChange = this.handlePhoneChange.bind(this);
+
+    this.handleEmailChange = this.handleEmailChange.bind(this);
+
+    this.handleMsgChange = this.handleMsgChange.bind(this);
   }
 
   componentDidMount() {
@@ -86,8 +98,42 @@ class Contact extends Component {
     });
   }
 
+  handleNameChange(event) {
+    this.setState({ name: event.target.value });
+  }
+
+  handlePhoneChange(event) {
+    this.setState({ phone: event.target.value });
+  }
+
+  handleEmailChange(event) {
+    this.setState({ email: event.target.value });
+  }
+
+  handleMsgChange(event) {
+    this.setState({ msg: event.target.value });
+  }
+
   submitForm() {
-    console.log('yay');
+    console.log(this.state);
+    let toSend = {
+      name: this.state.name,
+      phone: this.state.phone,
+      email: this.state.email,
+      msg: this.state.msg,
+      headers: { 'Access-Control-Allow-Origin': '*' },
+    };
+    axios
+      .post(
+        'https://e55s91fpvb.execute-api.us-east-1.amazonaws.com/test2/contact',
+        toSend,
+      )
+      .then(response => {
+        console.log(response);
+      })
+      .catch(err => {
+        console.log(err);
+      });
   }
   render() {
     return (
@@ -173,7 +219,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <input className="contactText" type="text" name="blah" />
+                  <input
+                    className="contactText"
+                    value={this.state.name}
+                    onChange={this.handleNameChange}
+                    type="text"
+                    name="blah"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -183,7 +235,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <input className="contactText" type="text" name="blah2" />
+                  <input
+                    className="contactText"
+                    value={this.state.phone}
+                    onChange={this.handlePhoneChange}
+                    type="text"
+                    name="blah2"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -193,7 +251,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <input className="contactText" type="text" name="blah2" />
+                  <input
+                    className="contactText"
+                    value={this.state.email}
+                    onChange={this.handleEmailChange}
+                    type="text"
+                    name="blah2"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -203,7 +267,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <textarea className="contactText" type="text" name="blah3" />
+                  <textarea
+                    className="contactText"
+                    value={this.state.msg}
+                    onChange={this.handleMsgChange}
+                    type="text"
+                    name="blah3"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -231,7 +301,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <input className="contactText" type="text" name="blah" />
+                  <input
+                    className="contactText"
+                    value={this.state.name}
+                    onChange={this.handleNameChange}
+                    type="text"
+                    name="blah"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -241,7 +317,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <input className="contactText" type="text" name="blah2" />
+                  <input
+                    className="contactText"
+                    value={this.state.phone}
+                    onChange={this.handlePhoneChange}
+                    type="text"
+                    name="blah2"
+                  />
                 </Col>
               </Row>
 
@@ -252,7 +334,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <input className="contactText" type="text" name="blah2" />
+                  <input
+                    className="contactText"
+                    value={this.state.email}
+                    onChange={this.handleEmailChange}
+                    type="text"
+                    name="blah2"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -262,7 +350,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <textarea className="contactText" type="text" name="blah3" />
+                  <textarea
+                    className="contactText"
+                    value={this.state.msg}
+                    onChange={this.handleMsgChange}
+                    type="text"
+                    name="blah3"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -290,7 +384,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <input className="contactText2" type="text" name="blah" />
+                  <input
+                    className="contactText2"
+                    value={this.state.name}
+                    onChange={this.handleNameChange}
+                    type="text"
+                    name="blah"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -300,7 +400,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <input className="contactText2" type="text" name="blah2" />
+                  <input
+                    className="contactText2"
+                    value={this.state.phone}
+                    onChange={this.handlePhoneChange}
+                    type="text"
+                    name="blah2"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -310,7 +416,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <input className="contactText2" type="text" name="blah2" />
+                  <input
+                    className="contactText2"
+                    value={this.state.email}
+                    onChange={this.handleEmailChange}
+                    type="text"
+                    name="blah2"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -320,7 +432,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="6">
-                  <textarea className="contactText2" type="text" name="blah3" />
+                  <textarea
+                    className="contactText2"
+                    value={this.state.msg}
+                    onChange={this.handleMsgChange}
+                    type="text"
+                    name="blah3"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -347,7 +465,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="9">
-                  <input className="contactText2" type="text" name="blah" />
+                  <input
+                    className="contactText2"
+                    value={this.state.name}
+                    onChange={this.handleNameChange}
+                    type="text"
+                    name="blah"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -356,7 +480,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="9">
-                  <input className="contactText2" type="text" name="blah2" />
+                  <input
+                    className="contactText2"
+                    value={this.state.phone}
+                    onChange={this.handlePhoneChange}
+                    type="text"
+                    name="blah2"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -365,7 +495,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="9">
-                  <input className="contactText2" type="text" name="blah2" />
+                  <input
+                    className="contactText2"
+                    value={this.state.email}
+                    onChange={this.handleEmailChange}
+                    type="text"
+                    name="blah2"
+                  />
                 </Col>
               </Row>
               <Row>
@@ -374,7 +510,13 @@ class Contact extends Component {
                 </Col>
 
                 <Col xs="9">
-                  <textarea className="contactText2" type="text" name="blah3" />
+                  <textarea
+                    className="contactText2"
+                    value={this.state.msg}
+                    onChange={this.handleMsgChange}
+                    type="text"
+                    name="blah3"
+                  />
                 </Col>
               </Row>
               <Row>
