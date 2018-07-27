@@ -125,13 +125,11 @@ class Vertimax extends Component {
         <div className="vertiPicDiv">
           <img className="vertiPic" src={vertiPic} />
         </div>
-        {!this.state.isPhone && (
+          {!this.state.isPhone && (
           <Container className="containerStyle">
             <Row>
               <Col xs="8">
-                <h5>
-                    <p>Goal
-                    Become more explosive, develop power, increase speed and strength
+                    <p><h4>Become more explosive! Develop power. Increase speed and strength.</h4>
                     (Or: Increase your vertical and become more explosive!)
                     </p>
 
@@ -147,10 +145,9 @@ class Vertimax extends Component {
                     you to strengthen weak muscles without a heavy workload, helping you to prevent injuries.
                     </p>
 
-                    <p>By scheduled appointment only. Each session is limited to 4 athletes. Reserve your spot now!</p>
-                </h5>
+                    <p>By scheduled appointment only. Each session is limited to 4 athletes.
+                        <h6 className="scheduleLink">Reserve your spot now!</h6></p>
                 <br />
-                <h6 className="scheduleLink">Schedule a class today!</h6>
               </Col>
               <Col xs="4">
                 <h4>Availability and Pricing</h4>
@@ -186,7 +183,7 @@ class Vertimax extends Component {
                         <i>Minimum of 4 players per session required.</i>
                     </p>
                 </div>
-                <div>Other packages available upon request.</div>
+                <div>Additional packages available upon request.</div>
               </Col>
             </Row>
             <br />
@@ -195,41 +192,68 @@ class Vertimax extends Component {
               <Col xs="4" />
             </Row>
           </Container>
-        )}
+          )}
         {this.state.isPhone && (
           <Container className="containerStyle">
             <Row>
               <Col xs="12">
-                <h5>
-                    Goal: Become more explosive, develop power, increase speed and strength
-                    Or: Increase your vertical and become more explosive!
+                  <p><h4>Become more explosive! Develop power. Increase speed and strength.</h4>
+                      (Or: Increase your vertical and become more explosive!)
+                  </p>
 
-                    Vertimax training is perfect for athletes looking to improve their strength and speed. Use it to
-                    increase power in all phases of the vertical jump, even accounting for arm swing momentum.
-                    Increase agility by sprinting while resistance is applied to the glutes, quads, calfs, and hip
-                    flexors at the same time.
+                  <p>
+                      Vertimax training is perfect for athletes looking to improve their strength and speed. Use it to
+                      increase power in all phases of the vertical jump, even accounting for arm swing momentum.
+                      Increase agility by sprinting while resistance is applied to the glutes, quads, calfs, and hip
+                      flexors at the same time.
+                  </p>
 
-                    Whether your goals are in jump or speed, the platform’s unique resistance band system will allow
-                    you to strengthen weak muscles without a heavy workload, helping you to prevent injuries.
+                  <p>
+                      Whether your goals are in jump or speed, the platform’s unique resistance band system will allow
+                      you to strengthen weak muscles without a heavy workload, helping you to prevent injuries.
+                  </p>
 
-                    By scheduled appointment only. Each session is limited to 4 athletes. Reserve your spot now!
-                </h5>
-                <br />
-                <h6 className="scheduleLink">Schedule a class today!</h6>
+                  <p>By scheduled appointment only. Each session is limited to 4 athletes.
+                      <h6 className="scheduleLink">Reserve your spot now!</h6></p>
               </Col>
             </Row>
             <br />
             <Row>
               <Col xs="12">
-                <h4>Pricing and Availability</h4>
-                <div>Bootcamp sessions are offered from: </div>{' '}
-                <div>
-                  {' '}
-                  6am to 10pm Monday through Saturday (i know this is wrong)
-                </div>
-                <br />
-                <div>Single session: $</div>
-                <div>Single Month of sessions(?): $</div>
+                  <h4>Availability and Pricing</h4>
+                  {/* <br></br> */}
+                  <div><b>Schedule </b></div>{' '}
+                  <div>
+                      {' '}
+                      Monday/Wednesday/Friday 3PM-9PM
+                      Saturday 7AM-8AM
+                  </div>
+                  <br />
+                  <div>
+                      <p>
+                          <b>Individual</b>
+                          <br></br>
+                          1 session: $35 <br></br>
+                          8 sessions: $240 <br></br>
+                          12 sessions: 330 <br></br>
+                      </p>
+                  </div>
+                  <div>
+                      <p>
+                          <b>Individual +1 Sibling</b>
+                          <br></br>
+                          One month sessions (max 12): $250
+                      </p>
+                  </div>
+                  <div>
+                      <p>
+                          <b>Team</b>
+                          <br></br>
+                          One month sessions (max 12): $100 <br></br>
+                          <i>Minimum of 4 players per session required.</i>
+                      </p>
+                  </div>
+                  <div>Additional packages available upon request.</div>
               </Col>
             </Row>
             <br />
