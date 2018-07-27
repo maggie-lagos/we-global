@@ -130,24 +130,63 @@ class Vertimax extends Component {
             <Row>
               <Col xs="8">
                 <h5>
-                  The Goal of our bootcamp sessions is to bring you closer to
-                  your death. Monica yogi is a professional at and has been
-                  leading class for 20 years text text text Udsafdf fdsafddf
-                  fdsafdfasf.
+                    <p>Goal
+                    Become more explosive, develop power, increase speed and strength
+                    (Or: Increase your vertical and become more explosive!)
+                    </p>
+
+                    <p>
+                    Vertimax training is perfect for athletes looking to improve their strength and speed. Use it to
+                    increase power in all phases of the vertical jump, even accounting for arm swing momentum.
+                    Increase agility by sprinting while resistance is applied to the glutes, quads, calfs, and hip
+                    flexors at the same time.
+                    </p>
+
+                    <p>
+                    Whether your goals are in jump or speed, the platform’s unique resistance band system will allow
+                    you to strengthen weak muscles without a heavy workload, helping you to prevent injuries.
+                    </p>
+
+                    <p>By scheduled appointment only. Each session is limited to 4 athletes. Reserve your spot now!</p>
                 </h5>
                 <br />
                 <h6 className="scheduleLink">Schedule a class today!</h6>
               </Col>
               <Col xs="4">
-                <h4>Pricing and Availability</h4>
-                <div>Bootcamp sessions are offered from: </div>{' '}
+                <h4>Availability and Pricing</h4>
+                  {/* <br></br> */}
+                  <div><b>Schedule </b></div>{' '}
                 <div>
                   {' '}
-                  6am to 10pm Monday through Saturday (i know this is wrong)
+                  Monday/Wednesday/Friday 3PM-9PM
+                  Saturday 7AM-8AM
                 </div>
                 <br />
-                <div>Single session: $</div>
-                <div>Single Month of sessions(?): $</div>
+                <div>
+                    <p>
+                        <b>Individual</b>
+                        <br></br>
+                        1 session: $35 <br></br>
+                        8 sessions: $240 <br></br>
+                        12 sessions: 330 <br></br>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <b>Individual +1 Sibling</b>
+                        <br></br>
+                        One month sessions (max 12): $250
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <b>Team</b>
+                        <br></br>
+                        One month sessions (max 12): $100 <br></br>
+                        <i>Minimum of 4 players per session required.</i>
+                    </p>
+                </div>
+                <div>Other packages available upon request.</div>
               </Col>
             </Row>
             <br />
@@ -162,10 +201,18 @@ class Vertimax extends Component {
             <Row>
               <Col xs="12">
                 <h5>
-                  The Goal of our bootcamp sessions is to bring you closer to
-                  your death. Monica yogi is a professional at and has been
-                  leading class for 20 years text text text Udsafdf fdsafddf
-                  fdsafdfasf.
+                    Goal: Become more explosive, develop power, increase speed and strength
+                    Or: Increase your vertical and become more explosive!
+
+                    Vertimax training is perfect for athletes looking to improve their strength and speed. Use it to
+                    increase power in all phases of the vertical jump, even accounting for arm swing momentum.
+                    Increase agility by sprinting while resistance is applied to the glutes, quads, calfs, and hip
+                    flexors at the same time.
+
+                    Whether your goals are in jump or speed, the platform’s unique resistance band system will allow
+                    you to strengthen weak muscles without a heavy workload, helping you to prevent injuries.
+
+                    By scheduled appointment only. Each session is limited to 4 athletes. Reserve your spot now!
                 </h5>
                 <br />
                 <h6 className="scheduleLink">Schedule a class today!</h6>
