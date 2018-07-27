@@ -15,6 +15,12 @@
   text-align: left;
 }
 
+.facilityDiv {
+  border-style: double;
+  padding-top: 1.25vw;
+  padding-left: 1.5vw !important;
+}
+
 .containerStyle {
   margin-width: none;
   text-align: left;
@@ -70,7 +76,8 @@
 
 .eventDiv {
   border-style: double;
-  padding: 2%;
+  padding-top: 1.25vw;
+  padding-left: 1.5vw !important;
 }
 
 .eventInnerDiv {

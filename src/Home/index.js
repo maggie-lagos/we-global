@@ -160,7 +160,7 @@ class Home extends Component {
         </div>
         <div />
         <div className="whoWeAre">
-          <h3>WHO WE ARE</h3>
+          <h4>WHO WE ARE</h4>
           <p className="whoWeAreText">
             Our Philosophy @IAmGlobal is very simple. It is a methodology that
             can be applied to everyday life. <br /> There are 6 simple steps
@@ -172,7 +172,7 @@ class Home extends Component {
         {this.state.isWideDesktop && (
           <Container className="containerStyle">
             <Row>
-              <Col xs="8">
+              <Col xs="7" className="facilityDiv">
                 <h4>FACILITY</h4>
                 <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
                 <div>Location: Somewhere in Virginia</div>
@@ -184,66 +184,26 @@ class Home extends Component {
                 <br />
                 <img className="facilityPic" src={facilityPic} />
               </Col>
+              <Col xs="1" />
               <Col xs="4" className="eventDiv">
                 <h4>UPCOMING EVENTS</h4>
-                <div className="eventInnerDiv">
-                  <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br />
-                  <i className="fa fa-calendar" />
-                  <div> Name: Pump iron with jimmy</div>
-                  <div>When: September 5th from 12pm to 3pm</div>
-                  <br />
-                  <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br />
+                <div
+                  class="fb-page"
+                  data-href="https://www.facebook.com/weglobalfitness/"
+                  data-tabs="events"
+                  data-small-header="true"
+                  data-adapt-container-width="true"
+                  data-hide-cover="true"
+                  data-show-facepile="true"
+                >
+                  <blockquote
+                    cite="https://www.facebook.com/weglobalfitness/"
+                    class="fb-xfbml-parse-ignore"
+                  >
+                    <a href="https://www.facebook.com/weglobalfitness/">
+                      We Global Fitness
+                    </a>
+                  </blockquote>
                 </div>
               </Col>
             </Row>
@@ -252,7 +212,7 @@ class Home extends Component {
         {this.state.isDesktop && (
           <Container className="containerStyle">
             <Row>
-              <Col xs="8">
+              <Col xs="7">
                 <h4>FACILITY</h4>
                 <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
                 <div>Location: Somewhere in Virginia</div>
@@ -264,66 +224,26 @@ class Home extends Component {
                 <br />
                 <img className="facilityPic" src={facilityPic} />
               </Col>
+              <Col xs="1" />
               <Col xs="4" className="eventDiv">
                 <h4>UPCOMING EVENTS</h4>
-                <div className="eventInnerDiv">
-                  <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br />
-                  <i className="fa fa-calendar" />
-                  <div> Name: Pump iron with jimmy</div>
-                  <div>When: September 5th from 12pm to 3pm</div>
-                  <br />
-                  <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br />
+                <div
+                  class="fb-page"
+                  data-href="https://www.facebook.com/weglobalfitness/"
+                  data-tabs="events"
+                  data-small-header="true"
+                  data-adapt-container-width="true"
+                  data-hide-cover="true"
+                  data-show-facepile="true"
+                >
+                  <blockquote
+                    cite="https://www.facebook.com/weglobalfitness/"
+                    class="fb-xfbml-parse-ignore"
+                  >
+                    <a href="https://www.facebook.com/weglobalfitness/">
+                      We Global Fitness
+                    </a>
+                  </blockquote>
                 </div>
               </Col>
             </Row>
@@ -332,7 +252,7 @@ class Home extends Component {
         {this.state.isTablet && (
           <Container className="containerStyle">
             <Row>
-              <Col xs="8">
+              <Col xs="7">
                 <h4>FACILITY</h4>
                 <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
                 <div>Location: Somewhere in Virginia</div>
@@ -344,30 +264,26 @@ class Home extends Component {
                 <br />
                 <img className="facilityPic" src={facilityPic} />
               </Col>
+              <Col xs="1" />
               <Col xs="4" className="eventDiv">
                 <h4>UPCOMING EVENTS</h4>
-                <div className="eventInnerDiv">
-                  <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br />
-                  <i className="fa fa-calendar" />
-                  <div> Name: Pump iron with jimmy</div>
-                  <div>When: September 5th from 12pm to 3pm</div>
-                  <br />
-                  <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
-                  <div> Name: Anthonys special party</div>
-                  <div>When: July 17th from 10am to 4pm</div>
-                  <br /> <i className="fa fa-calendar" />
+                <div
+                  class="fb-page"
+                  data-href="https://www.facebook.com/weglobalfitness/"
+                  data-tabs="events"
+                  data-small-header="true"
+                  data-adapt-container-width="true"
+                  data-hide-cover="true"
+                  data-show-facepile="true"
+                >
+                  <blockquote
+                    cite="https://www.facebook.com/weglobalfitness/"
+                    class="fb-xfbml-parse-ignore"
+                  >
+                    <a href="https://www.facebook.com/weglobalfitness/">
+                      We Global Fitness
+                    </a>
+                  </blockquote>
                 </div>
               </Col>
             </Row>
@@ -391,28 +307,23 @@ class Home extends Component {
                 <br />
                 <div className="eventDiv">
                   <h4>UPCOMING EVENTS</h4>
-                  <div className="eventInnerDiv">
-                    <i className="fa fa-calendar" />
-                    <div> Name: Anthonys special party</div>
-                    <div>When: July 17th from 10am to 4pm</div>
-                    <br />
-                    <i className="fa fa-calendar" />
-                    <div> Name: Pump iron with jimmy</div>
-                    <div>When: September 5th from 12pm to 3pm</div>
-                    <br />
-                    <i className="fa fa-calendar" />
-                    <div> Name: Anthonys special party</div>
-                    <div>When: July 17th from 10am to 4pm</div>
-                    <br /> <i className="fa fa-calendar" />
-                    <div> Name: Anthonys special party</div>
-                    <div>When: July 17th from 10am to 4pm</div>
-                    <br /> <i className="fa fa-calendar" />
-                    <div> Name: Anthonys special party</div>
-                    <div>When: July 17th from 10am to 4pm</div>
-                    <br /> <i className="fa fa-calendar" />
-                    <div> Name: Anthonys special party</div>
-                    <div>When: July 17th from 10am to 4pm</div>
-                    <br /> <i className="fa fa-calendar" />
+                  <div
+                    class="fb-page"
+                    data-href="https://www.facebook.com/weglobalfitness/"
+                    data-tabs="events"
+                    data-small-header="true"
+                    data-adapt-container-width="true"
+                    data-hide-cover="true"
+                    data-show-facepile="true"
+                  >
+                    <blockquote
+                      cite="https://www.facebook.com/weglobalfitness/"
+                      class="fb-xfbml-parse-ignore"
+                    >
+                      <a href="https://www.facebook.com/weglobalfitness/">
+                        We Global Fitness
+                      </a>
+                    </blockquote>
                   </div>
                 </div>
               </Col>
