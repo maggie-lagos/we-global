@@ -129,7 +129,7 @@ class Strength extends Component {
         {!this.state.isPhone && (
           <Container className="containerStyle">
             <Row>
-              <Col xs="8">
+              <Col xs="7" className="facilityDiv">
                 <h5>
                   The Goal of our bootcamp sessions is to bring you closer to
                   your death. Monica yogi is a professional at and has been
@@ -139,7 +139,8 @@ class Strength extends Component {
                 <br />
                 <h6 className="scheduleLink">Schedule a class today!</h6>
               </Col>
-              <Col xs="4">
+              <Col xs="1" />
+              <Col xs="4" className="eventDiv">
                 <h4>Pricing and Availability</h4>
                 <div>Bootcamp sessions are offered from: </div>{' '}
                 <div>
@@ -161,7 +162,8 @@ class Strength extends Component {
         {this.state.isPhone && (
           <Container className="containerStyle">
             <Row>
-              <Col xs="12">
+              <Col xs="1" />
+              <Col xs="10" className="facilityDiv">
                 <h5>
                   The Goal of our bootcamp sessions is to bring you closer to
                   your death. Monica yogi is a professional at and has been
@@ -171,10 +173,12 @@ class Strength extends Component {
                 <br />
                 <h6 className="scheduleLink">Schedule a class today!</h6>
               </Col>
+              <Col xs="1" />
             </Row>
             <br />
             <Row>
-              <Col xs="12">
+              <Col xs="1" />
+              <Col xs="10" className="facilityDiv">
                 <h4>Pricing and Availability</h4>
                 <div>Bootcamp sessions are offered from: </div>{' '}
                 <div>
@@ -185,6 +189,7 @@ class Strength extends Component {
                 <div>Single session: $</div>
                 <div>Single Month of sessions(?): $</div>
               </Col>
+              <Col xs="1" />
             </Row>
             <br />
             <Row>

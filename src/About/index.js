@@ -138,7 +138,7 @@ class About extends Component {
         {this.state.isNotPhone && (
           <div>
             <img className="aboutPic" src={aboutPic} />
-            <div>
+            <div className="facilityDiv">
               <h3 className="aboutText">Our Philosophy</h3>
               <h6 className="aboutSubtext">
                 At I am global sports, its all about student athletes and hard

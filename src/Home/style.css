@@ -19,6 +19,7 @@
   border-style: double;
   padding-top: 1.25vw;
   padding-left: 1.5vw !important;
+  padding-bottom: 1vw;
 }
 
 .containerStyle {
@@ -76,6 +77,11 @@
 
 .eventDiv {
   border-style: double;
+  padding-top: 1.25vw;
+  padding-left: 1.5vw !important;
+}
+
+.eventDivSmall {
   padding-top: 1.25vw;
   padding-left: 1.5vw !important;
 }

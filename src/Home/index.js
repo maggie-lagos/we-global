@@ -183,6 +183,7 @@ class Home extends Component {
                 </div>
                 <br />
                 <img className="facilityPic" src={facilityPic} />
+                <br />
               </Col>
               <Col xs="1" />
               <Col xs="4" className="eventDiv">
@@ -212,7 +213,7 @@ class Home extends Component {
         {this.state.isDesktop && (
           <Container className="containerStyle">
             <Row>
-              <Col xs="7">
+              <Col xs="7" className="facilityDiv">
                 <h4>FACILITY</h4>
                 <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
                 <div>Location: Somewhere in Virginia</div>
@@ -252,7 +253,7 @@ class Home extends Component {
         {this.state.isTablet && (
           <Container className="containerStyle">
             <Row>
-              <Col xs="7">
+              <Col xs="7" className="facilityDiv">
                 <h4>FACILITY</h4>
                 <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
                 <div>Location: Somewhere in Virginia</div>
@@ -292,7 +293,8 @@ class Home extends Component {
         {this.state.isPhone && (
           <Container className="containerStyle">
             <Row>
-              <Col xs="12">
+              <Col xs="1" />
+              <Col xs="10" className="facilityDiv">
                 <h4>FACILITY</h4>
                 <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
                 <div>Location: Somewhere in Virginia</div>
@@ -305,7 +307,15 @@ class Home extends Component {
                 <img className="facilityPic" src={facilityPic} />
                 <br />
                 <br />
-                <div className="eventDiv">
+              </Col>
+              <Col xs="1" />
+            </Row>
+            <br />
+
+            <Row>
+              <Col xs="1" />
+              <Col xs="10" className="facilityDiv">
+                <div className="eventDivSmall">
                   <h4>UPCOMING EVENTS</h4>
                   <div
                     class="fb-page"
@@ -327,7 +337,7 @@ class Home extends Component {
                   </div>
                 </div>
               </Col>
-              <Col xs="4" />
+              <Col xs="1" />
             </Row>
           </Container>
         )}

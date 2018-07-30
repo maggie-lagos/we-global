@@ -125,63 +125,73 @@ class Vertimax extends Component {
         <div className="vertiPicDiv">
           <img className="vertiPic" src={vertiPic} />
         </div>
-          {!this.state.isPhone && (
+        {!this.state.isPhone && (
           <Container className="containerStyle">
             <Row>
-              <Col xs="8">
-                    <p><h4>Become more explosive! Develop power. Increase speed and strength.</h4>
-                    (Or: Increase your vertical and become more explosive!)
-                    </p>
+              <Col xs="7" className="facilityDiv">
+                <p>
+                  <h4>
+                    Become more explosive! Develop power. Increase speed and
+                    strength.
+                  </h4>
+                  (Or: Increase your vertical and become more explosive!)
+                </p>
 
-                    <p>
-                    Vertimax training is perfect for athletes looking to improve their strength and speed. Use it to
-                    increase power in all phases of the vertical jump, even accounting for arm swing momentum.
-                    Increase agility by sprinting while resistance is applied to the glutes, quads, calfs, and hip
-                    flexors at the same time.
-                    </p>
+                <p>
+                  Vertimax training is perfect for athletes looking to improve
+                  their strength and speed. Use it to increase power in all
+                  phases of the vertical jump, even accounting for arm swing
+                  momentum. Increase agility by sprinting while resistance is
+                  applied to the glutes, quads, calfs, and hip flexors at the
+                  same time.
+                </p>
 
-                    <p>
-                    Whether your goals are in jump or speed, the platform’s unique resistance band system will allow
-                    you to strengthen weak muscles without a heavy workload, helping you to prevent injuries.
-                    </p>
+                <p>
+                  Whether your goals are in jump or speed, the platform’s unique
+                  resistance band system will allow you to strengthen weak
+                  muscles without a heavy workload, helping you to prevent
+                  injuries.
+                </p>
 
-                    <p>By scheduled appointment only. Each session is limited to 4 athletes.
-                        <h6 className="scheduleLink">Reserve your spot now!</h6></p>
+                <p>
+                  By scheduled appointment only. Each session is limited to 4
+                  athletes.
+                  <h6 className="scheduleLink">Reserve your spot now!</h6>
+                </p>
                 <br />
               </Col>
-              <Col xs="4">
+              <Col xs="1" />
+              <Col xs="4" className="facilityDiv">
                 <h4>Availability and Pricing</h4>
-                  {/* <br></br> */}
-                  <div><b>Schedule </b></div>{' '}
+                {/* <br></br> */}
                 <div>
-                  {' '}
-                  Monday/Wednesday/Friday 3PM-9PM
-                  Saturday 7AM-8AM
-                </div>
+                  <b>Schedule </b>
+                </div>{' '}
+                <div> Monday/Wednesday/Friday 3PM-9PM Saturday 7AM-8AM</div>
                 <br />
                 <div>
-                    <p>
-                        <b>Individual</b>
-                        <br></br>
-                        1 session: $35 <br></br>
-                        8 sessions: $240 <br></br>
-                        12 sessions: 330 <br></br>
-                    </p>
+                  <p>
+                    <b>Individual</b>
+                    <br />
+                    1 session: $35 <br />
+                    8 sessions: $240 <br />
+                    12 sessions: 330 <br />
+                  </p>
                 </div>
                 <div>
-                    <p>
-                        <b>Individual +1 Sibling</b>
-                        <br></br>
-                        One month sessions (max 12): $250
-                    </p>
+                  <p>
+                    <b>Individual +1 Sibling</b>
+                    <br />
+                    One month sessions (max 12): $250
+                  </p>
                 </div>
                 <div>
-                    <p>
-                        <b>Team</b>
-                        <br></br>
-                        One month sessions (max 12): $100 <br></br>
-                        <i>Minimum of 4 players per session required.</i>
-                    </p>
+                  <p>
+                    <b>Team</b>
+                    <br />
+                    One month sessions (max 12): $100 <br />
+                    <i>Minimum of 4 players per session required.</i>
+                  </p>
                 </div>
                 <div>Additional packages available upon request.</div>
               </Col>
@@ -192,69 +202,82 @@ class Vertimax extends Component {
               <Col xs="4" />
             </Row>
           </Container>
-          )}
+        )}
         {this.state.isPhone && (
           <Container className="containerStyle">
             <Row>
-              <Col xs="12">
-                  <p><h4>Become more explosive! Develop power. Increase speed and strength.</h4>
-                      (Or: Increase your vertical and become more explosive!)
-                  </p>
+              <Col xs="1" />
+              <Col xs="10" className="facilityDiv">
+                <p>
+                  <h4>
+                    Become more explosive! Develop power. Increase speed and
+                    strength.
+                  </h4>
+                  (Or: Increase your vertical and become more explosive!)
+                </p>
 
-                  <p>
-                      Vertimax training is perfect for athletes looking to improve their strength and speed. Use it to
-                      increase power in all phases of the vertical jump, even accounting for arm swing momentum.
-                      Increase agility by sprinting while resistance is applied to the glutes, quads, calfs, and hip
-                      flexors at the same time.
-                  </p>
+                <p>
+                  Vertimax training is perfect for athletes looking to improve
+                  their strength and speed. Use it to increase power in all
+                  phases of the vertical jump, even accounting for arm swing
+                  momentum. Increase agility by sprinting while resistance is
+                  applied to the glutes, quads, calfs, and hip flexors at the
+                  same time.
+                </p>
 
-                  <p>
-                      Whether your goals are in jump or speed, the platform’s unique resistance band system will allow
-                      you to strengthen weak muscles without a heavy workload, helping you to prevent injuries.
-                  </p>
+                <p>
+                  Whether your goals are in jump or speed, the platform’s unique
+                  resistance band system will allow you to strengthen weak
+                  muscles without a heavy workload, helping you to prevent
+                  injuries.
+                </p>
 
-                  <p>By scheduled appointment only. Each session is limited to 4 athletes.
-                      <h6 className="scheduleLink">Reserve your spot now!</h6></p>
+                <p>
+                  By scheduled appointment only. Each session is limited to 4
+                  athletes.
+                  <h6 className="scheduleLink">Reserve your spot now!</h6>
+                </p>
               </Col>
+              <Col xs="1" />
             </Row>
             <br />
             <Row>
-              <Col xs="12">
-                  <h4>Availability and Pricing</h4>
-                  {/* <br></br> */}
-                  <div><b>Schedule </b></div>{' '}
-                  <div>
-                      {' '}
-                      Monday/Wednesday/Friday 3PM-9PM
-                      Saturday 7AM-8AM
-                  </div>
-                  <br />
-                  <div>
-                      <p>
-                          <b>Individual</b>
-                          <br></br>
-                          1 session: $35 <br></br>
-                          8 sessions: $240 <br></br>
-                          12 sessions: 330 <br></br>
-                      </p>
-                  </div>
-                  <div>
-                      <p>
-                          <b>Individual +1 Sibling</b>
-                          <br></br>
-                          One month sessions (max 12): $250
-                      </p>
-                  </div>
-                  <div>
-                      <p>
-                          <b>Team</b>
-                          <br></br>
-                          One month sessions (max 12): $100 <br></br>
-                          <i>Minimum of 4 players per session required.</i>
-                      </p>
-                  </div>
-                  <div>Additional packages available upon request.</div>
+              <Col xs="1" />
+              <Col xs="10" className="facilityDiv">
+                <h4>Availability and Pricing</h4>
+                {/* <br></br> */}
+                <div>
+                  <b>Schedule </b>
+                </div>{' '}
+                <div> Monday/Wednesday/Friday 3PM-9PM Saturday 7AM-8AM</div>
+                <br />
+                <div>
+                  <p>
+                    <b>Individual</b>
+                    <br />
+                    1 session: $35 <br />
+                    8 sessions: $240 <br />
+                    12 sessions: 330 <br />
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <b>Individual +1 Sibling</b>
+                    <br />
+                    One month sessions (max 12): $250
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    <b>Team</b>
+                    <br />
+                    One month sessions (max 12): $100 <br />
+                    <i>Minimum of 4 players per session required.</i>
+                  </p>
+                </div>
+                <div>Additional packages available upon request.</div>
               </Col>
+              <Col xs="1" />
             </Row>
             <br />
             <Row>
