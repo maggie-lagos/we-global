@@ -17,7 +17,7 @@ import {
   UncontrolledTooltip,
 } from 'reactstrap';
 import logoPic from '../images/Logo.png';
-import vertiPic from '../images/goodVerta.jpg';
+import headerPic from '../images/vertimax-header-text.png';
 
 import './style.css';
 
@@ -122,8 +122,8 @@ class Vertimax extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-        <div className="vertiPicDiv">
-          <img className="vertiPic" src={vertiPic} />
+        <div className="headerPicDiv">
+          <img className="headerPic" src={headerPic} />
         </div>
         {!this.state.isPhone && (
           <Container className="containerStyle">
