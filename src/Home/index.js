@@ -214,8 +214,13 @@ class Home extends Component {
             <Row>
               <Col xs="7">
                 <h4>FACILITY</h4>
-                <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
-                <div>Location: Somewhere in Virginia</div>
+                <div>Open Monday-Saturday 6AM-10PM</div>
+                 <br />
+                <div>
+                  <p>1127 International Parkway Suite 105 <br />
+                      Fredericksburg, Virginia 22406</p>
+                </div>
+                
                 <br />
                 <div>
                   {' '}

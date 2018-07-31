@@ -17,7 +17,7 @@ import {
   UncontrolledTooltip,
 } from 'reactstrap';
 import logoPic from '../images/Logo.png';
-import vertiPic from '../images/goodVerta.jpg';
+import headerPic from '../images/vertimax-header-text.png';
 
 import './style.css';
 
@@ -122,8 +122,8 @@ class Vertimax extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-        <div className="vertiPicDiv">
-          <img className="vertiPic" src={vertiPic} />
+        <div className="headerPicDiv">
+          <img className="headerPic" src={headerPic} />
         </div>
           {!this.state.isPhone && (
           <Container className="containerStyle">
@@ -162,7 +162,7 @@ class Vertimax extends Component {
                 <div>
                     <p>
                         <b>Individual</b>
-                        <br></br>
+                        <br />
                         1 session: $35 <br></br>
                         8 sessions: $240 <br></br>
                         12 sessions: 330 <br></br>
@@ -171,15 +171,15 @@ class Vertimax extends Component {
                 <div>
                     <p>
                         <b>Individual +1 Sibling</b>
-                        <br></br>
+                        <br />
                         One month sessions (max 12): $250
                     </p>
                 </div>
                 <div>
                     <p>
                         <b>Team</b>
-                        <br></br>
-                        One month sessions (max 12): $100 <br></br>
+                        <br />
+                        One month sessions (max 12): $100 <br />
                         <i>Minimum of 4 players per session required.</i>
                     </p>
                 </div>
@@ -232,24 +232,24 @@ class Vertimax extends Component {
                   <div>
                       <p>
                           <b>Individual</b>
-                          <br></br>
-                          1 session: $35 <br></br>
-                          8 sessions: $240 <br></br>
-                          12 sessions: 330 <br></br>
+                          <br />
+                          1 session: $35 <br />
+                          8 sessions: $240 <br />
+                          12 sessions: 330 <br />
                       </p>
                   </div>
                   <div>
                       <p>
                           <b>Individual +1 Sibling</b>
-                          <br></br>
+                          <br />
                           One month sessions (max 12): $250
                       </p>
                   </div>
                   <div>
                       <p>
                           <b>Team</b>
-                          <br></br>
-                          One month sessions (max 12): $100 <br></br>
+                          <br />
+                          One month sessions (max 12): $100 <br />
                           <i>Minimum of 4 players per session required.</i>
                       </p>
                   </div>
