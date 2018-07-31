@@ -139,20 +139,20 @@ class About extends Component {
           <div>
             <img className="aboutPic" src={aboutPic} />
             <div className="facilityDiv">
-              <h3 className="aboutText">Our Philosophy</h3>
+              <h3 className="aboutText">Our Mission</h3>
               <h6 className="aboutSubtext">
-                At I am global sports, its all about student athletes and hard
-                work. Our trainers have a devotion and work ethic unmatched in
-                the known world. Something something smart something blah I'm
-                out of ideas this is just filler. What did the chicken say to
-                the peacock? I don't know said the donkey. woof woof woof woof
-                woof
+                  I Am Global Sports offers personalized athletic training, focusing on student
+                  athletes and families. Our programs include individual strength training, our
+                  specialty Vertimax training, yoga classes, and adult bootcamp classes. Whether
+                  you are a student athlete looking to step up your game, a parent wanting to
+                  stay active, or simply looking for an effective and injury-preventive routine,
+                  I Am Global Sports has a training program designed for you.
               </h6>
             </div>
             <Container className="containerStyle containerStyle2">
               <Row>
                 <Col xs="12">
-                  <h3>Coaches</h3>
+                  <h3>Meet the Coaches</h3>
                 </Col>
                 <Col xs="2">
                   <img className="coachPic" src={anthonyPic} />
@@ -218,20 +218,20 @@ class About extends Component {
           <div>
             <img className="aboutPic" src={aboutPic} />
             <div>
-              <h3 className="aboutText">Our Philosophy</h3>
+              <h3 className="aboutText">Our Mission</h3>
               <h6 className="aboutSubtext">
-                At I am global sports, its all about student athletes and hard
-                work. Our trainers have a devotion and work ethic unmatched in
-                the known world. Something something smart something blah I'm
-                out of ideas this is just filler. What did the chicken say to
-                the peacock? I don't know said the donkey. woof woof woof woof
-                woof
+                  I Am Global Sports offers personalized athletic training, focusing on student
+                  athletes and families. Our programs include individual strength training, our
+                  specialty Vertimax training, yoga classes, and adult bootcamp classes. Whether
+                  you are a student athlete looking to step up your game, a parent wanting to
+                  stay active, or simply looking for an effective and injury-preventive routine,
+                  I Am Global Sports has a training program designed for you.
               </h6>
             </div>
             <Container className="containerStyle containerStyle2">
               <Row>
                 <Col xs="12">
-                  <h3>Coaches</h3>
+                  <h3>Meet the Couches</h3>
                 </Col>
                 <Col xs="212">
                   <img className="coachPic" src={anthonyPic} />

@@ -32,6 +32,15 @@
   text-align: center;
 }
 
+.headerPic {
+  width: 100%;
+  height: auto;
+}
+
+.headerPicDiv {
+  position: relative;
+}
+
 video {
   object-fit: cover;
 }

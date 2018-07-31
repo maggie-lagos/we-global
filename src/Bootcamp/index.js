@@ -18,8 +18,8 @@ import {
 } from 'reactstrap';
 
 import logoPic from '../images/Logo.png';
-import bootPic from '../images/best-hiking-boots.jpg';
-import bootcampPic from '../images/bootcamp.jpg';
+import bootPic from '../images/bootcamp-text-header.png';
+import bootcampPic from '../images/bootcamp-text-header.png';
 
 import './style.css';
 
@@ -100,8 +100,8 @@ class Bootcamp extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-        <div className="bootcampPicDiv">
-          <img className="bootcampPic" src={bootPic} />
+        <div className="headerPicDiv">
+          <img className="headerPic" src={bootPic} />
           <h2 className="bootcampText">Bootcamp</h2>
           <div className="bootcampText2">
             <p>COMING SOON</p>
