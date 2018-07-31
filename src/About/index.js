@@ -138,79 +138,102 @@ class About extends Component {
         {this.state.isNotPhone && (
           <div>
             <img className="aboutPic" src={aboutPic} />
-            <div className="facilityDiv">
-              <h3 className="aboutText">Our Mission</h3>
-              <h6 className="aboutSubtext">
-                  I Am Global Sports offers personalized athletic training, focusing on student
-                  athletes and families. Our programs include individual strength training, our
-                  specialty Vertimax training, yoga classes, and adult bootcamp classes. Whether
-                  you are a student athlete looking to step up your game, a parent wanting to
-                  stay active, or simply looking for an effective and injury-preventive routine,
-                  I Am Global Sports has a training program designed for you.
-              </h6>
-            </div>
-            <Container className="containerStyle containerStyle2">
+            <Container className="containerStyle">
               <Row>
-                <Col xs="12">
-                  <h3>Meet the Coaches</h3>
+                <Col xs="1" />
+                <Col xs="10" className="facilityDiv">
+                  <h3 className="aboutText">Our Mission</h3>
+                  <h6 className="aboutSubtext">
+                    I Am Global Sports offers personalized athletic training,
+                    focusing on student athletes and families. Our programs
+                    include individual strength training, our specialty Vertimax
+                    training, yoga classes, and adult bootcamp classes. Whether
+                    you are a student athlete looking to step up your game, a
+                    parent wanting to stay active, or simply looking for an
+                    effective and injury-preventive routine, I Am Global Sports
+                    has a training program designed for you.
+                  </h6>
                 </Col>
-                <Col xs="2">
-                  <img className="coachPic" src={anthonyPic} />
-                  <h5>Anthony Melvin</h5>
-                  <br />
-                </Col>
-                <Col xs="8">
-                  <p className="coachText">
-                    Anthony is the humble founder of I Am Global Sports. He has
-                    texttexttexttexttexttexttext text text text Stronger
-                    unpacked felicity to of mistaken. Fanny at wrong table ye
-                    in. Be on easily cannot innate in lasted months on. Differed
-                    and and felicity steepest mrs age outweigh. Opinions
-                    learning likewise daughter now age outweigh. Raptures
-                    stanhill my greatest mistaken or exercise he on although.
-                    Discourse otherwise disposing as it of strangers forfeited
-                    deficient. Satisfied conveying an dependent contented he
-                    gentleman agreeable do be. Warrant private blushes removed
-                    an in equally totally if. Delivered dejection necessary
-                    objection do mr prevailed. Mr feeling
-                  </p>
-                  <br />
-                </Col>
+                <Col xs="1" />
               </Row>
-              <Row>
-                <Col xs="2">
-                  <img className="coachPic" src={lyneePic} />
-                  <h5>Lynee Pina</h5>
-                </Col>
-                <Col xs="8">
-                  <p className="coachText">
-                    It's a yak! Specialties are strength training and developing
-                    a strength training program.
-                  </p>
-                </Col>
-              </Row>
-              <Row>
-                <Col xs="2">
-                  <img className="coachPic" src={yakPic} />
-                  <h5>Charles Thomas</h5>
-                </Col>
-                <Col xs="8">
-                  <p className="coachText">
-                    It's a yak! Special is strength training.
-                  </p>
-                </Col>
-              </Row>
-              <Row>
-                <Col xs="2">
-                  <img className="coachPic" src={yakPic} />
-                  <h5>Yoga Instructor</h5>
-                </Col>
-                <Col xs="8">
-                  <p className="coachText">
-                    It's a yak! Special is strength training.
-                  </p>
-                </Col>
-              </Row>
+              <br />
+              <div className="facilityDiv">
+                <Row>
+                  <Col xs="1" />
+                  <Col xs="10">
+                    <h3 className="aboutText">Meet the Coaches</h3>
+                  </Col>
+                  <Col xs="1" />
+                </Row>
+                <Row>
+                  <Col xs="1" />
+                  <Col xs="2">
+                    <img className="coachPic" src={anthonyPic} />
+                    <h5>Anthony Melvin</h5>
+                    <br />
+                  </Col>
+                  <Col xs="8">
+                    <p className="coachText">
+                      Anthony is the humble founder of I Am Global Sports. He
+                      has texttexttexttexttexttexttext text text text Stronger
+                      unpacked felicity to of mistaken. Fanny at wrong table ye
+                      in. Be on easily cannot innate in lasted months on.
+                      Differed and and felicity steepest mrs age outweigh.
+                      Opinions learning likewise daughter now age outweigh.
+                      Raptures stanhill my greatest mistaken or exercise he on
+                      although. Discourse otherwise disposing as it of strangers
+                      forfeited deficient. Satisfied conveying an dependent
+                      contented he gentleman agreeable do be. Warrant private
+                      blushes removed an in equally totally if. Delivered
+                      dejection necessary objection do mr prevailed. Mr feeling
+                    </p>
+                    <br />
+                  </Col>
+                  <Col xs="1" />
+                </Row>
+                <Row>
+                  <Col xs="1" />
+                  <Col xs="2">
+                    <img className="coachPic" src={lyneePic} />
+                    <h5>Lynee Pina</h5>
+                  </Col>
+                  <Col xs="8">
+                    <p className="coachText">
+                      It's a yak! Specialties are strength training and
+                      developing a strength training program.
+                    </p>
+                  </Col>
+                  <Col xs="1" />
+                </Row>
+
+                <Row>
+                  <Col xs="1" />
+                  <Col xs="2">
+                    <img className="coachPic" src={yakPic} />
+                    <h5>Charles Thomas</h5>
+                  </Col>
+                  <Col xs="8">
+                    <p className="coachText">
+                      It's a yak! Special is strength training.
+                    </p>
+                  </Col>
+                  <Col xs="1" />
+                </Row>
+                <Row>
+                  <Col xs="1" />
+
+                  <Col xs="2">
+                    <img className="coachPic" src={yakPic} />
+                    <h5>Yoga Instructor</h5>
+                  </Col>
+                  <Col xs="8">
+                    <p className="coachText">
+                      It's a yak! Special is strength training.
+                    </p>
+                  </Col>
+                  <Col xs="1" />
+                </Row>
+              </div>
             </Container>
           </div>
         )}
@@ -218,28 +241,30 @@ class About extends Component {
           <div>
             <img className="aboutPic" src={aboutPic} />
             <div>
-              <h3 className="aboutText">Our Mission</h3>
-              <h6 className="aboutSubtext">
-                  I Am Global Sports offers personalized athletic training, focusing on student
-                  athletes and families. Our programs include individual strength training, our
-                  specialty Vertimax training, yoga classes, and adult bootcamp classes. Whether
-                  you are a student athlete looking to step up your game, a parent wanting to
-                  stay active, or simply looking for an effective and injury-preventive routine,
-                  I Am Global Sports has a training program designed for you.
+              <h3 className="aboutText3">Our Mission</h3>
+              <h6 className="aboutSubtext3">
+                I Am Global Sports offers personalized athletic training,
+                focusing on student athletes and families. Our programs include
+                individual strength training, our specialty Vertimax training,
+                yoga classes, and adult bootcamp classes. Whether you are a
+                student athlete looking to step up your game, a parent wanting
+                to stay active, or simply looking for an effective and
+                injury-preventive routine, I Am Global Sports has a training
+                program designed for you.
               </h6>
             </div>
-            <Container className="containerStyle containerStyle2">
+            <Container className="containerStyle">
               <Row>
                 <Col xs="12">
-                  <h3>Meet the Couches</h3>
+                  <h3 className="aboutText3">Meet the Couches</h3>
                 </Col>
-                <Col xs="212">
+                <Col xs="12">
                   <img className="coachPic" src={anthonyPic} />
                   <h5>Anthony Melvin</h5>
                   <br />
                 </Col>
                 <Col xs="12">
-                  <p className="coachText2">
+                  <p className="coachText3">
                     Anthony is the humble founder of I Am Global Sports. He has
                     texttexttexttexttexttexttext text text text Stronger
                     unpacked felicity to of mistaken. Fanny at wrong table ye
@@ -262,7 +287,7 @@ class About extends Component {
                   <h5>Lynee Pina</h5>
                 </Col>
                 <Col xs="12">
-                  <p className="coachText2">
+                  <p className="coachText3">
                     It's a yak! Specialties are strength training and developing
                     a strength training program.
                   </p>
@@ -274,7 +299,7 @@ class About extends Component {
                   <h5>Charles Thomas</h5>
                 </Col>
                 <Col xs="12">
-                  <p className="coachText2">
+                  <p className="coachText3">
                     It's a yak! Special is strength training.
                   </p>
                 </Col>
@@ -285,7 +310,7 @@ class About extends Component {
                   <h5>Yoga Instructor</h5>
                 </Col>
                 <Col xs="12">
-                  <p className="coachText2">
+                  <p className="coachText3">
                     It's a yak! Special is strength training.
                   </p>
                 </Col>

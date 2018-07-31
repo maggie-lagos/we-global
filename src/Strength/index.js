@@ -16,6 +16,8 @@ import {
   Col,
   UncontrolledTooltip,
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
+
 import logoPic from '../images/Logo.png';
 
 import './style.css';
@@ -137,7 +139,9 @@ class Strength extends Component {
                   fdsafdfasf.
                 </h5>
                 <br />
-                <h6 className="scheduleLink">Schedule a class today!</h6>
+                <Link to="/events" className="scheduleLink">
+                  Reserve your spot now!
+                </Link>
               </Col>
               <Col xs="1" />
               <Col xs="4" className="eventDiv">
@@ -171,7 +175,9 @@ class Strength extends Component {
                   fdsafdfasf.
                 </h5>
                 <br />
-                <h6 className="scheduleLink">Schedule a class today!</h6>
+                <Link to="/events" className="scheduleLink">
+                  Reserve your spot now!
+                </Link>{' '}
               </Col>
               <Col xs="1" />
             </Row>

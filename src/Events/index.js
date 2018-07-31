@@ -30,6 +30,11 @@ class Events extends Component {
       isOpen: false,
     };
   }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen,

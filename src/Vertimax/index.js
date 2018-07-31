@@ -16,6 +16,8 @@ import {
   Col,
   UncontrolledTooltip,
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
+
 import logoPic from '../images/Logo.png';
 import headerPic from '../images/vertimax-header-text.png';
 
@@ -156,9 +158,11 @@ class Vertimax extends Component {
                 <p>
                   By scheduled appointment only. Each session is limited to 4
                   athletes.
-                  <h6 className="scheduleLink">Reserve your spot now!</h6>
                 </p>
                 <br />
+                <Link to="/events" className="scheduleLink">
+                  Reserve your spot now!
+                </Link>
               </Col>
               <Col xs="1" />
               <Col xs="4" className="facilityDiv">
@@ -235,8 +239,11 @@ class Vertimax extends Component {
                 <p>
                   By scheduled appointment only. Each session is limited to 4
                   athletes.
-                  <h6 className="scheduleLink">Reserve your spot now!</h6>
                 </p>
+                <br />
+                <Link to="/events" className="scheduleLink">
+                  Reserve your spot now!
+                </Link>
               </Col>
               <Col xs="1" />
             </Row>
