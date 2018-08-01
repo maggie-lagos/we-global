@@ -181,7 +181,6 @@ class Home extends Component {
                   <br />
                   <img className="facilityPic" src={facilityPic} />
                   <div>Featuring indoor turf and a group fitness room</div>
-                <br />
               </Col>
               <Col xs="1" />
               <Col xs="4" className="eventDiv">
