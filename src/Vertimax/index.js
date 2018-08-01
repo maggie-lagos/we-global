@@ -132,11 +132,7 @@ class Vertimax extends Component {
             <Row>
               <Col xs="7" className="facilityDiv">
                 <p>
-                  <h4>
-                    Become more explosive! Develop power. Increase speed and
-                    strength.
-                  </h4>
-                  (Or: Increase your vertical and become more explosive!)
+                  <h4>Increase your vertical and become more explosive!</h4>
                 </p>
 
                 <p>
@@ -144,7 +140,7 @@ class Vertimax extends Component {
                   their strength and speed. Use it to increase power in all
                   phases of the vertical jump, even accounting for arm swing
                   momentum. Increase agility by sprinting while resistance is
-                  applied to the glutes, quads, calfs, and hip flexors at the
+                  applied to the glutes, quads, calves, and hip flexors at the
                   same time.
                 </p>
 
@@ -213,11 +209,7 @@ class Vertimax extends Component {
               <Col xs="1" />
               <Col xs="10" className="facilityDiv">
                 <p>
-                  <h4>
-                    Become more explosive! Develop power. Increase speed and
-                    strength.
-                  </h4>
-                  (Or: Increase your vertical and become more explosive!)
+                  <h4>Increase your vertical and become more explosive!</h4>
                 </p>
 
                 <p>
@@ -225,7 +217,7 @@ class Vertimax extends Component {
                   their strength and speed. Use it to increase power in all
                   phases of the vertical jump, even accounting for arm swing
                   momentum. Increase agility by sprinting while resistance is
-                  applied to the glutes, quads, calfs, and hip flexors at the
+                  applied to the glutes, quads, calves, and hip flexors at the
                   same time.
                 </p>
 
