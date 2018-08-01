@@ -18,8 +18,7 @@ import {
 } from 'reactstrap';
 
 import logoPic from '../images/Logo.png';
-import bootPic from '../images/bootcamp-text-header.png';
-import bootcampPic from '../images/bootcamp-text-header.png';
+import bootPic from '../images/bootcamp-header-text.png';
 
 import './style.css';
 
@@ -102,7 +101,6 @@ class Bootcamp extends Component {
         </Navbar>
         <div className="headerPicDiv">
           <img className="headerPic" src={bootPic} />
-          <h2 className="bootcampText">Bootcamp</h2>
           <div className="bootcampText2">
             <p>COMING SOON</p>
           </div>
