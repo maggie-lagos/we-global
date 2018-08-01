@@ -22,7 +22,7 @@ import logoPic from '../images/Logo.png';
 
 import './style.css';
 
-import strengthPic from '../images/strength.jpg';
+import strengthPic from '../images/strength-header-text.png';
 class Strength extends Component {
   constructor(props) {
     super(props);
@@ -126,7 +126,6 @@ class Strength extends Component {
         </Navbar>
         <div className="strengthPicDiv">
           <img className="strengthPic" src={strengthPic} />
-          <h2 className="strengthText">Strength Training</h2>
         </div>
         {!this.state.isPhone && (
           <Container className="containerStyle">
