@@ -159,10 +159,10 @@ class Contact extends Component {
                     <DropdownItem href="/strength">Strength</DropdownItem>
                     <DropdownItem href="/yoga">
                       {' '}
-                      Yoga (Coming soon)
+                      Yoga (Coming Soon)
                     </DropdownItem>
                     <DropdownItem href="/bootcamp">
-                      Bootcamp (Coming soon)
+                      Bootcamp (Coming Soon)
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
@@ -205,9 +205,9 @@ class Contact extends Component {
         </div>
         <div>
           <br />
-          <h2>Contact us</h2>
+          <h2>Contact Us</h2>
           <br />
-          <p>We are always happy to hear your questions and concerns</p>
+          <p>We are always happy to respond to your questions and concerns.</p>
         </div>
         <div>
           {this.state.isWideDesktop && (

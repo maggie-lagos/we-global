@@ -60,9 +60,9 @@ class Bootcamp extends Component {
                 <DropdownMenu right>
                   <DropdownItem href="/vertimax">Vertimax/Agility</DropdownItem>
                   <DropdownItem href="/strength">Strength</DropdownItem>
-                  <DropdownItem href="/yoga"> Yoga (Coming soon)</DropdownItem>
+                  <DropdownItem href="/yoga"> Yoga (Coming Soon)</DropdownItem>
                   <DropdownItem href="/bootcamp">
-                    Bootcamp (Coming soon)
+                    Bootcamp (Coming Soon)
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>

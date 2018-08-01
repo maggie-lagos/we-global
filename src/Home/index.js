@@ -112,10 +112,10 @@ class Home extends Component {
                     <DropdownItem href="/strength">Strength</DropdownItem>
                     <DropdownItem href="/yoga">
                       {' '}
-                      Yoga (Coming soon)
+                      Yoga (Coming Soon)
                     </DropdownItem>
                     <DropdownItem href="/bootcamp">
-                      Bootcamp (Coming soon)
+                      Bootcamp (Coming Soon)
                     </DropdownItem>
                   </DropdownMenu>
                 </UncontrolledDropdown>
@@ -160,12 +160,9 @@ class Home extends Component {
         </div>
         <div />
         <div className="whoWeAre">
-          <h4>WHO WE ARE</h4>
+          <h4>EAT, SLEEP, TRAIN... AND TRAIN, PRACTICE, PLAY!... AT AN OPTIMAL LEVEL.</h4>
           <p className="whoWeAreText">
-            Our Philosophy @IAmGlobal is very simple. It is a methodology that
-            can be applied to everyday life. <br /> There are 6 simple steps
-            which are: Eat, Sleep, Train & Train, Practice, Play. We offer 4
-            types of training, specializing in student athlete training.
+              I Am Global Sports offers personalized athletic training, focusing on student athletes and their families.
           </p>
           <p className="whoWeAreText" />
         </div>
@@ -173,16 +170,17 @@ class Home extends Component {
           <Container className="containerStyle">
             <Row>
               <Col xs="7" className="facilityDiv">
-                <h4>FACILITY</h4>
-                <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
-                <div>Location: Somewhere in Virginia</div>
-                <br />
-                <div>
-                  {' '}
-                  &nbsp;&nbsp; iz a nice place. Really large building. Grey.{' '}
-                </div>
-                <br />
-                <img className="facilityPic" src={facilityPic} />
+                  <h4>FACILITY</h4>
+                  <div><b>Hours of Operation</b></div>
+                  <p>Monday-Saturday 6am-10pm <br />
+                      By appointment only.</p>
+                  <div><b>Location</b></div>
+                  <p>1127 International Parkway <br />
+                      Suite 105 <br />
+                      Fredericksburg, VA 22406</p>
+                  <br />
+                  <img className="facilityPic" src={facilityPic} />
+                  <div>Featuring indoor turf and a group fitness room</div>
                 <br />
               </Col>
               <Col xs="1" />
@@ -214,21 +212,17 @@ class Home extends Component {
           <Container className="containerStyle">
             <Row>
               <Col xs="7" className="facilityDiv">
-                <h4>FACILITY</h4>
-                <div>Open Monday-Saturday 6AM-10PM</div>
-                 <br />
-                <div>
-                  <p>1127 International Parkway Suite 105 <br />
-                      Fredericksburg, Virginia 22406</p>
-                </div>
-                
-                <br />
-                <div>
-                  {' '}
-                  &nbsp;&nbsp; iz a nice place. Really large building. Grey.{' '}
-                </div>
-                <br />
-                <img className="facilityPic" src={facilityPic} />
+                  <h4>FACILITY</h4>
+                  <div><b>Hours of Operation</b></div>
+                  <p>Monday-Saturday 6am-10pm <br />
+                      By appointment only.</p>
+                  <div><b>Location</b></div>
+                  <p>1127 International Parkway <br />
+                      Suite 105 <br />
+                      Fredericksburg, VA 22406</p>
+                  <br />
+                  <img className="facilityPic" src={facilityPic} />
+                  <div>Featuring indoor turf and a group fitness room</div>
               </Col>
               <Col xs="1" />
               <Col xs="4" className="eventDiv">
@@ -259,16 +253,17 @@ class Home extends Component {
           <Container className="containerStyle">
             <Row>
               <Col xs="7" className="facilityDiv">
-                <h4>FACILITY</h4>
-                <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
-                <div>Location: Somewhere in Virginia</div>
-                <br />
-                <div>
-                  {' '}
-                  &nbsp;&nbsp; iz a nice place. Really large building. Grey.{' '}
-                </div>
-                <br />
-                <img className="facilityPic" src={facilityPic} />
+                  <h4>FACILITY</h4>
+                  <div><b>Hours of Operation</b></div>
+                  <p>Monday-Saturday 6am-10pm <br />
+                      By appointment only.</p>
+                  <div><b>Location</b></div>
+                  <p>1127 International Parkway <br />
+                      Suite 105 <br />
+                      Fredericksburg, VA 22406</p>
+                  <br />
+                  <img className="facilityPic" src={facilityPic} />
+                  <div>Featuring indoor turf and a group fitness room</div>
               </Col>
               <Col xs="1" />
               <Col xs="4" className="eventDiv">
@@ -301,22 +296,20 @@ class Home extends Component {
               <Col xs="1" />
               <Col xs="10" className="facilityDiv">
                 <h4>FACILITY</h4>
-                <div>Hours: MONDAY-SATURDAY 6am-10pm</div>
-                <div>Location: Somewhere in Virginia</div>
-                <br />
-                <div>
-                  {' '}
-                  &nbsp;&nbsp; iz a nice place. Really large building. Grey.{' '}
-                </div>
+                <div><b>Hours of Operation</b></div>
+                <p>Monday-Saturday 6am-10pm <br />
+                    By appointment only.</p>
+                <div><b>Location</b></div>
+                <p>1127 International Parkway <br />
+                    Suite 105 <br />
+                    Fredericksburg, VA 22406</p>
                 <br />
                 <img className="facilityPic" src={facilityPic} />
-                <br />
-                <br />
+                <div>Featuring indoor turf and a group fitness room</div>
               </Col>
               <Col xs="1" />
             </Row>
             <br />
-
             <Row>
               <Col xs="1" />
               <Col xs="10" className="facilityDiv">
