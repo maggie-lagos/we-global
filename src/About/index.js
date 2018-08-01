@@ -19,8 +19,7 @@ import {
 
 import logoPic from '../images/Logo.png';
 
-import aboutPic from '../images/about2.jpg';
-import coach1Pic from '../images/littlekid.jpeg';
+import aboutPic from '../images/about-us-header.png';
 import yakPic from '../images/yak.jpg';
 import anthonyPic from '../images/bio-anthony.jpg';
 import lyneePic from '../images/bio-lynee.jpg';
