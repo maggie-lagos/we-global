@@ -19,8 +19,7 @@ import {
 
 import logoPic from '../images/Logo.png';
 
-import yogaPic from '../images/womanYoga.jpg';
-import yogaPic2 from '../images/yoga2.jpg';
+import yogaPic from '../images/yoga-header-text.png';
 import yogaVideo from '../images/IMG_0606.MOV';
 
 import './style.css';
@@ -103,9 +102,8 @@ class Yoga extends Component {
         </Navbar>
         <div className="yogaPicDiv">
           <img className="yogaPic" src={yogaPic} />
-          <h2 className="yogaText">Yoga</h2>
           <div className="yogaText2">
-            <p>COMING SOON</p>
+            COMING SOON
           </div>
         </div>
       </div>

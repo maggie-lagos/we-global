@@ -102,7 +102,7 @@ class Bootcamp extends Component {
         <div className="headerPicDiv">
           <img className="headerPic" src={bootPic} />
           <div className="bootcampText2">
-            <p>COMING SOON</p>
+            COMING SOON
           </div>
         </div>
       </div>
