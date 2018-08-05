@@ -20,6 +20,9 @@ import {
 import logoPic from '../images/Logo.png';
 import dashboardPic from '../images/dashboard.png';
 import facilityPic from '../images/facility.png';
+import slideshowPic1 from '../images/student-1.png';
+import slideshowPic2 from '../images/student-2.png';
+import slideshowPic3 from '../images/student-3.png';
 
 import './style.css';
 
@@ -207,7 +210,10 @@ class Home extends Component {
                   Fredericksburg, VA 22406
                 </p>
                 <br />
-                <img className="facilityPic" src={facilityPic} />
+                <img className="facilityPic" src={slideshowPic1} />
+                <img className="facilityPic" src={slideshowPic2} />
+                <img className="facilityPic" src={slideshowPic3} />
+
                 <div className="textFontSize">
                   Featuring indoor turf and a group fitness room
                 </div>
@@ -259,7 +265,9 @@ class Home extends Component {
                   Fredericksburg, VA 22406
                 </p>
                 <br />
-                <img className="facilityPic" src={facilityPic} />
+                <img className="facilityPic" src={slideshowPic1} />
+                <img className="facilityPic" src={slideshowPic2} />
+                <img className="facilityPic" src={slideshowPic3} />
                 <div className="textFontSize">
                   Featuring indoor turf and a group fitness room
                 </div>
@@ -311,7 +319,9 @@ class Home extends Component {
                   Fredericksburg, VA 22406
                 </p>
                 <br />
-                <img className="facilityPic" src={facilityPic} />
+                <img className="facilityPic" src={slideshowPic1} />
+                <img className="facilityPic" src={slideshowPic2} />
+                <img className="facilityPic" src={slideshowPic3} />
                 <div className="textFontSize">
                   Featuring indoor turf and a group fitness room
                 </div>
@@ -364,7 +374,9 @@ class Home extends Component {
                   Fredericksburg, VA 22406
                 </p>
                 <br />
-                <img className="facilityPic" src={facilityPic} />
+                <img className="facilityPic" src={slideshowPic1} />
+                <img className="facilityPic" src={slideshowPic2} />
+                <img className="facilityPic" src={slideshowPic3} />
                 <div className="textFontSize2">
                   Featuring indoor turf and a group fitness room
                 </div>

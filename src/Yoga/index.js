@@ -102,9 +102,19 @@ class Yoga extends Component {
         </Navbar>
         <div className="yogaPicDiv">
           <img className="yogaPic" src={yogaPic} />
-          <div className="yogaText2">
-            COMING SOON
-          </div>
+          <div className="yogaText2">COMING SOON</div>
+        </div>
+        <br />
+        <div className="facilityDiv yogaLink yogaFont">
+          If you are interested in taking our yoga classes, please fill out this
+          short{' '}
+          <a
+            target="_blank"
+            className="scheduleLink yogaFont "
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdSUC2RgR8GMoi-btk4lztNWkNVjeGzDMuSG1aQ7Tfb5NJbZg/viewform?edit2=2_ABaOnucnTdfAOBaklV2ZGDU_BsmM1k2mDkT1X3sN4t5IFTXvWVRztGkDMFqVDW0"
+          >
+            questionnaire
+          </a>.
         </div>
       </div>
     );

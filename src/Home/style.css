@@ -72,8 +72,9 @@
 }
 
 .facilityPic {
-  width: 95%;
+  width: 33%;
   height: auto;
+  margin-right: 0.1vw;
 }
 
 .eventDiv {
