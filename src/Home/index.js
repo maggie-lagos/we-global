@@ -18,8 +18,8 @@ import {
 } from 'reactstrap';
 
 import logoPic from '../images/Logo.png';
-import dashboardPic from '../images/dashboard2.jpg';
-import facilityPic from '../images/fac.jpg';
+import dashboardPic from '../images/dashboard.png';
+import facilityPic from '../images/facility.png';
 
 import './style.css';
 
@@ -398,7 +398,6 @@ class Home extends Component {
             </Row>
           </Container>
         )}
-        <div className="footer" />
       </div>
     );
   }
