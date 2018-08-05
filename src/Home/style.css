@@ -26,6 +26,7 @@
   margin-width: none;
   text-align: left;
   margin-left: 5%;
+  padding-bottom: 1vw;
 }
 @media screen and (min-width: 375px) {
   .eventDiv {

@@ -17,6 +17,8 @@ import {
   UncontrolledTooltip,
 } from 'reactstrap';
 
+import { Carousel } from 'react-responsive-carousel';
+
 import logoPic from '../images/Logo.png';
 import dashboardPic from '../images/dashboard2.jpg';
 import facilityPic from '../images/fac.jpg';
@@ -398,7 +400,6 @@ class Home extends Component {
             </Row>
           </Container>
         )}
-        <div className="footer" />
       </div>
     );
   }
