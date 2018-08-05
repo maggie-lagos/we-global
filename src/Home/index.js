@@ -159,32 +159,62 @@ class Home extends Component {
           <img className="dashboardPicStyle" src={dashboardPic} />
         </div>
         <div />
-        <div className="whoWeAre">
-          <h4>EAT, SLEEP, TRAIN... AND TRAIN, PRACTICE, PLAY!... AT AN OPTIMAL LEVEL.</h4>
-          <p className="whoWeAreText">
-              I Am Global Sports offers personalized athletic training, focusing on student athletes and their families.
-          </p>
-          <p className="whoWeAreText" />
-        </div>
+        {!this.state.isPhone && (
+          <div className="whoWeAre ">
+            <h4 className="headerFontsize">
+              EAT, SLEEP, TRAIN... AND TRAIN, PRACTICE, PLAY!... AT AN OPTIMAL
+              LEVEL.
+            </h4>
+            <p className="whoWeAreText textFontSize">
+              I Am Global Sports offers personalized athletic training, focusing
+              on student athletes and their families.
+            </p>
+            <p className="whoWeAreText" />
+          </div>
+        )}
+        {this.state.isPhone && (
+          <div className="whoWeAre ">
+            <h4 className="headerFontsize2">
+              EAT, SLEEP, TRAIN... AND TRAIN, PRACTICE, PLAY!... AT AN OPTIMAL
+              LEVEL.
+            </h4>
+            <p className="whoWeAreText textFontSize2">
+              I Am Global Sports offers personalized athletic training, focusing
+              on student athletes and their families.
+            </p>
+            <p className="whoWeAreText" />
+          </div>
+        )}
+
         {this.state.isWideDesktop && (
           <Container className="containerStyle">
             <Row>
               <Col xs="7" className="facilityDiv">
-                  <h4>FACILITY</h4>
-                  <div><b>Hours of Operation</b></div>
-                  <p>Monday-Saturday 6am-10pm <br />
-                      By appointment only.</p>
-                  <div><b>Location</b></div>
-                  <p>1127 International Parkway <br />
-                      Suite 105 <br />
-                      Fredericksburg, VA 22406</p>
-                  <br />
-                  <img className="facilityPic" src={facilityPic} />
-                  <div>Featuring indoor turf and a group fitness room</div>
+                <h4 className="headerFontSize">FACILITY</h4>
+                <div>
+                  <b className="textFontSize">Hours of Operation</b>
+                </div>
+                <p className="textFontSize">
+                  Monday-Saturday 6am-10pm <br />
+                  By appointment only.
+                </p>
+                <div>
+                  <b className="textFontSize">Location</b>
+                </div>
+                <p className="textFontSize">
+                  1127 International Parkway <br />
+                  Suite 105 <br />
+                  Fredericksburg, VA 22406
+                </p>
+                <br />
+                <img className="facilityPic" src={facilityPic} />
+                <div className="textFontSize">
+                  Featuring indoor turf and a group fitness room
+                </div>
               </Col>
               <Col xs="1" />
               <Col xs="4" className="eventDiv">
-                <h4>UPCOMING EVENTS</h4>
+                <h4 className="headerFontSize">UPCOMING EVENTS</h4>
                 <div
                   class="fb-page"
                   data-href="https://www.facebook.com/weglobalfitness/"
@@ -211,21 +241,31 @@ class Home extends Component {
           <Container className="containerStyle">
             <Row>
               <Col xs="7" className="facilityDiv">
-                  <h4>FACILITY</h4>
-                  <div><b>Hours of Operation</b></div>
-                  <p>Monday-Saturday 6am-10pm <br />
-                      By appointment only.</p>
-                  <div><b>Location</b></div>
-                  <p>1127 International Parkway <br />
-                      Suite 105 <br />
-                      Fredericksburg, VA 22406</p>
-                  <br />
-                  <img className="facilityPic" src={facilityPic} />
-                  <div>Featuring indoor turf and a group fitness room</div>
+                <h4 className="headerFontSize">FACILITY</h4>
+                <div>
+                  <b className="textFontSize">Hours of Operation</b>
+                </div>
+                <p className="textFontSize">
+                  Monday-Saturday 6am-10pm <br />
+                  By appointment only.
+                </p>
+                <div>
+                  <b className="textFontSize">Location</b>
+                </div>
+                <p className="textFontSize">
+                  1127 International Parkway <br />
+                  Suite 105 <br />
+                  Fredericksburg, VA 22406
+                </p>
+                <br />
+                <img className="facilityPic" src={facilityPic} />
+                <div className="textFontSize">
+                  Featuring indoor turf and a group fitness room
+                </div>
               </Col>
               <Col xs="1" />
               <Col xs="4" className="eventDiv">
-                <h4>UPCOMING EVENTS</h4>
+                <h4 className="headerFontSize">UPCOMING EVENTS</h4>
                 <div
                   class="fb-page"
                   data-href="https://www.facebook.com/weglobalfitness/"
@@ -252,21 +292,31 @@ class Home extends Component {
           <Container className="containerStyle">
             <Row>
               <Col xs="7" className="facilityDiv">
-                  <h4>FACILITY</h4>
-                  <div><b>Hours of Operation</b></div>
-                  <p>Monday-Saturday 6am-10pm <br />
-                      By appointment only.</p>
-                  <div><b>Location</b></div>
-                  <p>1127 International Parkway <br />
-                      Suite 105 <br />
-                      Fredericksburg, VA 22406</p>
-                  <br />
-                  <img className="facilityPic" src={facilityPic} />
-                  <div>Featuring indoor turf and a group fitness room</div>
+                <h4 className="headerFontSize">FACILITY</h4>
+                <div>
+                  <b className="textFontSize">Hours of Operation</b>
+                </div>
+                <p className="textFontSize">
+                  Monday-Saturday 6am-10pm <br />
+                  By appointment only.
+                </p>
+                <div>
+                  <b className="textFontSize">Location</b>
+                </div>
+                <p className="textFontSize">
+                  1127 International Parkway <br />
+                  Suite 105 <br />
+                  Fredericksburg, VA 22406
+                </p>
+                <br />
+                <img className="facilityPic" src={facilityPic} />
+                <div className="textFontSize">
+                  Featuring indoor turf and a group fitness room
+                </div>
               </Col>
               <Col xs="1" />
               <Col xs="4" className="eventDiv">
-                <h4>UPCOMING EVENTS</h4>
+                <h4 className="headerFontSize">UPCOMING EVENTS</h4>
                 <div
                   class="fb-page"
                   data-href="https://www.facebook.com/weglobalfitness/"
@@ -294,17 +344,27 @@ class Home extends Component {
             <Row>
               <Col xs="1" />
               <Col xs="10" className="facilityDiv">
-                <h4>FACILITY</h4>
-                <div><b>Hours of Operation</b></div>
-                <p>Monday-Saturday 6am-10pm <br />
-                    By appointment only.</p>
-                <div><b>Location</b></div>
-                <p>1127 International Parkway <br />
-                    Suite 105 <br />
-                    Fredericksburg, VA 22406</p>
+                <h4 className="headerFontSize2">FACILITY</h4>
+                <div>
+                  <b className="textFontSize2">Hours of Operation</b>
+                </div>
+                <p className="textFontSize2">
+                  Monday-Saturday 6am-10pm <br />
+                  By appointment only.
+                </p>
+                <div>
+                  <b className="textFontSize2"> Location</b>
+                </div>
+                <p className="textFontSize2">
+                  1127 International Parkway <br />
+                  Suite 105 <br />
+                  Fredericksburg, VA 22406
+                </p>
                 <br />
                 <img className="facilityPic" src={facilityPic} />
-                <div>Featuring indoor turf and a group fitness room</div>
+                <div className="textFontSize2">
+                  Featuring indoor turf and a group fitness room
+                </div>
               </Col>
               <Col xs="1" />
             </Row>
@@ -313,7 +373,7 @@ class Home extends Component {
               <Col xs="1" />
               <Col xs="10" className="facilityDiv">
                 <div className="eventDivSmall">
-                  <h4>UPCOMING EVENTS</h4>
+                  <h4 className="headerFontSize2">UPCOMING EVENTS</h4>
                   <div
                     class="fb-page"
                     data-href="https://www.facebook.com/weglobalfitness/"
@@ -338,6 +398,7 @@ class Home extends Component {
             </Row>
           </Container>
         )}
+        <div className="footer" />
       </div>
     );
   }

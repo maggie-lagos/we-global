@@ -56,3 +56,26 @@
 .logo {
   width: 11vw;
 }
+
+.footer {
+  background-color: #211f20 !important;
+  height: 3vw;
+  position: absolute;
+  width: 100%;
+}
+
+.headerFontSize {
+  font-size: 1.8vw;
+}
+
+.headerFontSize2 {
+  font-size: 4.8vw;
+}
+
+.textFontSize {
+  font-size: 1.2vw;
+}
+
+.textFontSize2 {
+  font-size: 3.2vw;
+}

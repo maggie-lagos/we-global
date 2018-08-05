@@ -138,29 +138,34 @@ class About extends Component {
           <div>
             <img className="aboutPic" src={aboutPic} />
             <Container className="containerStyle">
-              <Row>
-                <Col xs="1" />
-                <Col xs="10" className="facilityDiv">
-                  <h3 className="aboutText">Our Mission</h3>
-                  <h6 className="aboutSubtext">
-                    I Am Global Sports offers personalized athletic training,
-                    focusing on student athletes and families. Our programs
-                    include individual strength training, our specialty Vertimax
-                    training, yoga classes, and adult bootcamp classes. Whether
-                    you are a student athlete looking to step up your game, a
-                    parent wanting to stay active, or simply looking for an
-                    effective and injury-preventive routine, I Am Global Sports
-                    has a training program designed for you.
-                  </h6>
-                </Col>
-                <Col xs="1" />
-              </Row>
+              <div className="facilityDiv">
+                <Row>
+                  <Col xs="1" />
+                  <Col xs="10">
+                    <h3 className="aboutText headerFontSize">Our Mission</h3>
+                    <h6 className="aboutSubtext textFontSize">
+                      I Am Global Sports offers personalized athletic training,
+                      focusing on student athletes and families. Our programs
+                      include individual strength training, our specialty
+                      Vertimax training, yoga classes, and adult bootcamp
+                      classes. Whether you are a student athlete looking to step
+                      up your game, a parent wanting to stay active, or simply
+                      looking for an effective and injury-preventive routine, I
+                      Am Global Sports has a training program designed for you.
+                    </h6>
+                  </Col>
+                  <Col xs="1" />
+                </Row>
+              </div>
+
               <br />
               <div className="facilityDiv">
                 <Row>
                   <Col xs="1" />
                   <Col xs="10">
-                    <h3 className="aboutText">Meet the Coaches</h3>
+                    <h3 className="aboutText headerFontSize">
+                      Meet the Coaches
+                    </h3>
                   </Col>
                   <Col xs="1" />
                 </Row>
@@ -168,11 +173,13 @@ class About extends Component {
                   <Col xs="1" />
                   <Col xs="2">
                     <img className="coachPic" src={anthonyPic} />
-                    <h5>Anthony Melvin</h5>
+                    <p className="textFontSize">
+                      <b> Anthony Melvin</b>
+                    </p>
                     <br />
                   </Col>
                   <Col xs="8">
-                    <p className="coachText">
+                    <p className="coachText textFontSize">
                       Anthony is the humble founder of I Am Global Sports. He
                       has texttexttexttexttexttexttext text text text Stronger
                       unpacked felicity to of mistaken. Fanny at wrong table ye
@@ -194,10 +201,12 @@ class About extends Component {
                   <Col xs="1" />
                   <Col xs="2">
                     <img className="coachPic" src={lyneePic} />
-                    <h5>Lynee Pina</h5>
+                    <p className="textFontSize">
+                      <b>Lynee Pina</b>
+                    </p>
                   </Col>
                   <Col xs="8">
-                    <p className="coachText">
+                    <p className="coachText textFontSize">
                       It's a yak! Specialties are strength training and
                       developing a strength training program.
                     </p>
@@ -209,10 +218,12 @@ class About extends Component {
                   <Col xs="1" />
                   <Col xs="2">
                     <img className="coachPic" src={yakPic} />
-                    <h5>Charles Thomas</h5>
+                    <p className="textFontSize">
+                      <b>Charles Thomas</b>
+                    </p>
                   </Col>
                   <Col xs="8">
-                    <p className="coachText">
+                    <p className="coachText textFontSize">
                       It's a yak! Special is strength training.
                     </p>
                   </Col>
@@ -223,10 +234,12 @@ class About extends Component {
 
                   <Col xs="2">
                     <img className="coachPic" src={yakPic} />
-                    <h5>Yoga Instructor</h5>
+                    <p className="textFontSize">
+                      <b>Yoga Instructor</b>
+                    </p>
                   </Col>
                   <Col xs="8">
-                    <p className="coachText">
+                    <p className="coachText textFontSize">
                       It's a yak! Special is strength training.
                     </p>
                   </Col>
@@ -240,8 +253,8 @@ class About extends Component {
           <div>
             <img className="aboutPic" src={aboutPic} />
             <div>
-              <h3 className="aboutText3">Our Mission</h3>
-              <h6 className="aboutSubtext3">
+              <h3 className="aboutText3 headerFontSize2">Our Mission</h3>
+              <h6 className="aboutSubtext3 textFontSize2">
                 I Am Global Sports offers personalized athletic training,
                 focusing on student athletes and families. Our programs include
                 individual strength training, our specialty Vertimax training,
@@ -255,15 +268,18 @@ class About extends Component {
             <Container className="containerStyle">
               <Row>
                 <Col xs="12">
-                  <h3 className="aboutText3">Meet the Couches</h3>
+                  <h3 className="aboutText4 headerFontSize2">
+                    Meet the Couches
+                  </h3>
                 </Col>
                 <Col xs="12">
                   <img className="coachPic" src={anthonyPic} />
-                  <h5>Anthony Melvin</h5>
-                  <br />
+                  <p className="textFontSize2">
+                    <b>Anthony Melvin</b>
+                  </p>
                 </Col>
                 <Col xs="12">
-                  <p className="coachText3">
+                  <p className="coachText3 textFontSize2">
                     Anthony is the humble founder of I Am Global Sports. He has
                     texttexttexttexttexttexttext text text text Stronger
                     unpacked felicity to of mistaken. Fanny at wrong table ye
@@ -283,10 +299,12 @@ class About extends Component {
               <Row>
                 <Col xs="12">
                   <img className="coachPic" src={lyneePic} />
-                  <h5>Lynee Pina</h5>
+                  <p className="textFontSize2">
+                    <b>Lynee Pina</b>
+                  </p>
                 </Col>
                 <Col xs="12">
-                  <p className="coachText3">
+                  <p className="coachText3 textFontSize2">
                     It's a yak! Specialties are strength training and developing
                     a strength training program.
                   </p>
@@ -295,10 +313,12 @@ class About extends Component {
               <Row>
                 <Col xs="12">
                   <img className="coachPic" src={yakPic} />
-                  <h5>Charles Thomas</h5>
+                  <p className="textFontSize2">
+                    <b>Charles Thomas</b>
+                  </p>
                 </Col>
                 <Col xs="12">
-                  <p className="coachText3">
+                  <p className="coachText3 textFontSize2">
                     It's a yak! Special is strength training.
                   </p>
                 </Col>
@@ -306,10 +326,12 @@ class About extends Component {
               <Row>
                 <Col xs="12">
                   <img className="coachPic" src={yakPic} />
-                  <h5>Yoga Instructor</h5>
+                  <p className="textFontSize2">
+                    <b>Yoga Instructor</b>
+                  </p>
                 </Col>
                 <Col xs="12">
-                  <p className="coachText3">
+                  <p className="coachText3 textFontSize2">
                     It's a yak! Special is strength training.
                   </p>
                 </Col>

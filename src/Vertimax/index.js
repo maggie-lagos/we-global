@@ -132,10 +132,12 @@ class Vertimax extends Component {
             <Row>
               <Col xs="7" className="facilityDiv">
                 <p>
-                  <h4>Increase your vertical and become more explosive!</h4>
+                  <h4 className="headerFontSize">
+                    Increase your vertical and become more explosive!
+                  </h4>
                 </p>
 
-                <p>
+                <p className="textFontSize">
                   Vertimax training is perfect for athletes looking to improve
                   their strength and speed. Use it to increase power in all
                   phases of the vertical jump, even accounting for arm swing
@@ -144,33 +146,36 @@ class Vertimax extends Component {
                   same time.
                 </p>
 
-                <p>
+                <p className="textFontSize">
                   Whether your goals are in jump or speed, the platform’s unique
                   resistance band system will allow you to strengthen weak
                   muscles without a heavy workload, helping you to prevent
                   injuries.
                 </p>
 
-                <p>
+                <p className="textFontSize">
                   By scheduled appointment only. Each session is limited to 4
                   athletes.
                 </p>
                 <br />
-                <Link to="/events" className="scheduleLink">
+                <Link to="/events" className="scheduleLink textFontSize">
                   Reserve your spot now!
                 </Link>
               </Col>
               <Col xs="1" />
               <Col xs="4" className="facilityDiv">
-                <h4>Availability and Pricing</h4>
+                <h4 className="headerFontSize">Availability and Pricing</h4>
                 {/* <br></br> */}
                 <div>
-                  <b>Schedule </b>
+                  <b className="textFontSize">Schedule </b>
                 </div>{' '}
-                <div> Monday/Wednesday/Friday 3PM-9PM Saturday 7AM-8AM</div>
+                <div className="textFontSize">
+                  {' '}
+                  Monday/Wednesday/Friday 3PM-9PM Saturday 7AM-8AM
+                </div>
                 <br />
                 <div>
-                  <p>
+                  <p className="textFontSize">
                     <b>Individual</b>
                     <br />
                     1 session: $35 <br />
@@ -179,21 +184,23 @@ class Vertimax extends Component {
                   </p>
                 </div>
                 <div>
-                  <p>
+                  <p className="textFontSize">
                     <b>Individual +1 Sibling</b>
                     <br />
                     One month sessions (max 12): $250
                   </p>
                 </div>
                 <div>
-                  <p>
+                  <p className="textFontSize">
                     <b>Team</b>
                     <br />
                     One month sessions (max 12): $100 <br />
                     <i>Minimum of 4 players per session required.</i>
                   </p>
                 </div>
-                <div>Additional packages available upon request.</div>
+                <div className="textFontSize">
+                  Additional packages available upon request.
+                </div>
               </Col>
             </Row>
             <br />
@@ -209,10 +216,12 @@ class Vertimax extends Component {
               <Col xs="1" />
               <Col xs="10" className="facilityDiv">
                 <p>
-                  <h4>Increase your vertical and become more explosive!</h4>
+                  <h4 className="headerFontSize2">
+                    Increase your vertical and become more explosive!
+                  </h4>
                 </p>
 
-                <p>
+                <p className="textFontSize2">
                   Vertimax training is perfect for athletes looking to improve
                   their strength and speed. Use it to increase power in all
                   phases of the vertical jump, even accounting for arm swing
@@ -221,19 +230,19 @@ class Vertimax extends Component {
                   same time.
                 </p>
 
-                <p>
+                <p className="textFontSize2">
                   Whether your goals are in jump or speed, the platform’s unique
                   resistance band system will allow you to strengthen weak
                   muscles without a heavy workload, helping you to prevent
                   injuries.
                 </p>
 
-                <p>
+                <p className="textFontSize2">
                   By scheduled appointment only. Each session is limited to 4
                   athletes.
                 </p>
                 <br />
-                <Link to="/events" className="scheduleLink">
+                <Link to="/events" className="scheduleLink textFontSize2">
                   Reserve your spot now!
                 </Link>
               </Col>
@@ -243,15 +252,18 @@ class Vertimax extends Component {
             <Row>
               <Col xs="1" />
               <Col xs="10" className="facilityDiv">
-                <h4>Availability and Pricing</h4>
+                <h4 className="headerFontSize2">Availability and Pricing</h4>
                 {/* <br></br> */}
                 <div>
-                  <b>Schedule </b>
+                  <b className="textFontSize2">Schedule </b>
                 </div>{' '}
-                <div> Monday/Wednesday/Friday 3PM-9PM Saturday 7AM-8AM</div>
+                <div className="textFontSize2">
+                  {' '}
+                  Monday/Wednesday/Friday 3PM-9PM Saturday 7AM-8AM
+                </div>
                 <br />
                 <div>
-                  <p>
+                  <p className="textFontSize2">
                     <b>Individual</b>
                     <br />
                     1 session: $35 <br />
@@ -260,21 +272,23 @@ class Vertimax extends Component {
                   </p>
                 </div>
                 <div>
-                  <p>
+                  <p className="textFontSize2">
                     <b>Individual +1 Sibling</b>
                     <br />
                     One month sessions (max 12): $250
                   </p>
                 </div>
                 <div>
-                  <p>
+                  <p className="textFontSize2">
                     <b>Team</b>
                     <br />
                     One month sessions (max 12): $100 <br />
                     <i>Minimum of 4 players per session required.</i>
                   </p>
                 </div>
-                <div>Additional packages available upon request.</div>
+                <div className="textFontSize2">
+                  Additional packages available upon request.
+                </div>
               </Col>
               <Col xs="1" />
             </Row>

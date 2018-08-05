@@ -203,19 +203,34 @@ class Contact extends Component {
             </Collapse>
           </Navbar>
         </div>
-        <div>
-          <br />
-          <h2>Contact Us</h2>
-          <br />
-          <p>We are always happy to respond to your questions and concerns.</p>
-        </div>
+        {!this.state.isPhone && (
+          <div>
+            <br />
+            <h2 className="headerFontSize">Contact Us</h2>
+            <br />
+            <p className="textFontSize">
+              We are always happy to respond to your questions and concerns.
+            </p>
+          </div>
+        )}
+        {this.state.isPhone && (
+          <div>
+            <br />
+            <h2 className="headerFontSize2">Contact Us</h2>
+            <br />
+            <p className="textFontSize2">
+              We are always happy to respond to your questions and concerns.
+            </p>
+          </div>
+        )}
+
         <div>
           {this.state.isWideDesktop && (
             <Container className="containerStyle">
               <Row>
                 <Col xs="4" />
                 <Col xs="1">
-                  <p>Name:</p>
+                  <p className="textFontSize">Name:</p>
                 </Col>
 
                 <Col xs="6">
@@ -231,7 +246,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="4" />
                 <Col xs="1">
-                  <p>Phone:</p>
+                  <p className="textFontSize">Phone:</p>
                 </Col>
 
                 <Col xs="6">
@@ -247,7 +262,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="4" />
                 <Col xs="1">
-                  <p>Email:</p>
+                  <p className="textFontSize">Email:</p>
                 </Col>
 
                 <Col xs="6">
@@ -263,7 +278,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="4" />
                 <Col xs="1">
-                  <p>Message:</p>
+                  <p className="textFontSize">Message:</p>
                 </Col>
 
                 <Col xs="6">
@@ -297,7 +312,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="4" />
                 <Col xs="1">
-                  <p>Name:</p>
+                  <p className="textFontSize">Name:</p>
                 </Col>
 
                 <Col xs="6">
@@ -313,7 +328,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="4" />
                 <Col xs="1">
-                  <p>Phone:</p>
+                  <p className="textFontSize">Phone:</p>
                 </Col>
 
                 <Col xs="6">
@@ -330,7 +345,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="4" />
                 <Col xs="1">
-                  <p>Email:</p>
+                  <p className="textFontSize">Email:</p>
                 </Col>
 
                 <Col xs="6">
@@ -346,7 +361,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="4" />
                 <Col xs="1">
-                  <p>Message:</p>
+                  <p className="textFontSize">Message:</p>
                 </Col>
 
                 <Col xs="6">
@@ -380,7 +395,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="3" />
                 <Col xs="1" className="smallMargin">
-                  <p>Name:</p>
+                  <p className="textFontSize">Name:</p>
                 </Col>
 
                 <Col xs="6">
@@ -396,7 +411,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="3" />
                 <Col xs="1" className="smallMargin">
-                  <p>Phone:</p>
+                  <p className="textFontSize">Phone:</p>
                 </Col>
 
                 <Col xs="6">
@@ -412,7 +427,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="3" />
                 <Col xs="1" className="smallMargin">
-                  <p>Email:</p>
+                  <p className="textFontSize">Email:</p>
                 </Col>
 
                 <Col xs="6">
@@ -428,7 +443,7 @@ class Contact extends Component {
               <Row>
                 <Col xs="3" />
                 <Col xs="1" className="smallMargin">
-                  <p>Message:</p>
+                  <p className="textFontSize">Message:</p>
                 </Col>
 
                 <Col xs="6">
@@ -461,7 +476,7 @@ class Contact extends Component {
             <Container className="containerStyle">
               <Row>
                 <Col xs="2" className="smallMargin">
-                  <p>Name:</p>
+                  <p className="textFontSize2">Name:</p>
                 </Col>
 
                 <Col xs="9">
@@ -476,7 +491,7 @@ class Contact extends Component {
               </Row>
               <Row>
                 <Col xs="2" className="smallMargin">
-                  <p>Phone:</p>
+                  <p className="textFontSize2">Phone:</p>
                 </Col>
 
                 <Col xs="9">
@@ -491,7 +506,7 @@ class Contact extends Component {
               </Row>
               <Row>
                 <Col xs="2" className="smallMargin">
-                  <p>Email:</p>
+                  <p className="textFontSize2">Email:</p>
                 </Col>
 
                 <Col xs="9">
@@ -506,7 +521,7 @@ class Contact extends Component {
               </Row>
               <Row>
                 <Col xs="2" className="smallMargin">
-                  <p>Message:</p>
+                  <p className="textFontSize2">Message:</p>
                 </Col>
 
                 <Col xs="9">
