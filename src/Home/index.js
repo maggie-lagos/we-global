@@ -17,11 +17,12 @@ import {
   UncontrolledTooltip,
 } from 'reactstrap';
 
-import { Carousel } from 'react-responsive-carousel';
-
 import logoPic from '../images/Logo.png';
 import dashboardPic from '../images/dashboard2.jpg';
 import facilityPic from '../images/fac.jpg';
+import slideshowPic1 from '../images/VertimaxJump-Edit.png';
+import slideshowPic2 from '../images/VertimaxSmile-Edit.png';
+import slideshowPic3 from '../images/GirlRunning-Edit.png';
 
 import './style.css';
 
@@ -235,6 +236,7 @@ class Home extends Component {
                     </a>
                   </blockquote>
                 </div>
+                <div />
               </Col>
             </Row>
           </Container>
@@ -286,6 +288,7 @@ class Home extends Component {
                     </a>
                   </blockquote>
                 </div>
+                <div />
               </Col>
             </Row>
           </Container>
@@ -337,6 +340,7 @@ class Home extends Component {
                     </a>
                   </blockquote>
                 </div>
+                <div> </div>
               </Col>
             </Row>
           </Container>
@@ -395,6 +399,7 @@ class Home extends Component {
                     </blockquote>
                   </div>
                 </div>
+                <div />
               </Col>
               <Col xs="1" />
             </Row>
