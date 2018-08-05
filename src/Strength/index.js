@@ -64,7 +64,7 @@ class Strength extends Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
         {' '}
         <Navbar light expand="md">
           <NavbarBrand href="/home">

@@ -17,6 +17,8 @@ import {
   UncontrolledTooltip,
 } from 'reactstrap';
 
+import { Carousel } from 'react-responsive-carousel';
+
 import logoPic from '../images/Logo.png';
 import dashboardPic from '../images/dashboard.png';
 import facilityPic from '../images/facility.png';

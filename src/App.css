@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: white;
 }
 
 .App-logo {
@@ -59,7 +60,7 @@
 
 .footer {
   background-color: #211f20 !important;
-  height: 3vw;
+  height: 8vw;
   position: absolute;
   width: 100%;
 }
