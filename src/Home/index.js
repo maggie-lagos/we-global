@@ -18,11 +18,8 @@ import {
 } from 'reactstrap';
 
 import logoPic from '../images/Logo.png';
-import dashboardPic from '../images/dashboard2.jpg';
-import facilityPic from '../images/fac.jpg';
-import slideshowPic1 from '../images/VertimaxJump-Edit.png';
-import slideshowPic2 from '../images/VertimaxSmile-Edit.png';
-import slideshowPic3 from '../images/GirlRunning-Edit.png';
+import dashboardPic from '../images/dashboard.png';
+import facilityPic from '../images/facility.png';
 
 import './style.css';
 
