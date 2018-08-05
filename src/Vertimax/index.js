@@ -171,7 +171,8 @@ class Vertimax extends Component {
                 </div>{' '}
                 <div className="textFontSize">
                   {' '}
-                  Monday/Wednesday/Friday 3PM-9PM Saturday 7AM-8AM
+                  Monday/Wednesday/Friday 3PM-9PM <br />
+                  Saturday 7AM-8AM
                 </div>
                 <br />
                 <div>
@@ -259,7 +260,8 @@ class Vertimax extends Component {
                 </div>{' '}
                 <div className="textFontSize2">
                   {' '}
-                  Monday/Wednesday/Friday 3PM-9PM Saturday 7AM-8AM
+                  Monday/Wednesday/Friday 3PM-9PM <br />
+                  Saturday 7AM-8AM
                 </div>
                 <br />
                 <div>

@@ -106,7 +106,7 @@ class Yoga extends Component {
         </div>
         <br />
         <div className="facilityDiv yogaLink yogaFont">
-          If you are interested in taking our yoga classes, please fill out this
+          Interested in taking our yoga classes? Please fill out this
           short{' '}
           <a
             target="_blank"

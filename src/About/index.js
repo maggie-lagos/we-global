@@ -20,9 +20,10 @@ import {
 import logoPic from '../images/Logo.png';
 
 import aboutPic from '../images/about-us-header.png';
-import yakPic from '../images/yak.jpg';
+import antoinePic from '../images/bio-antoine.png';
 import anthonyPic from '../images/bio-anthony.jpg';
 import lyneePic from '../images/bio-lynee.jpg';
+import charlesPic from '../images/bio-charles.png';
 
 import './style.css';
 
@@ -141,7 +142,7 @@ class About extends Component {
               <div className="facilityDiv">
                 <Row>
                   <Col xs="12">
-                    <h3 className="aboutText headerFontSize">Our Mission</h3>
+                    <h3 className="aboutText headerFontSize">OUR MISSION</h3>
                     <h6 className="aboutSubtext textFontSize">
                       I Am Global Sports offers personalized athletic training,
                       focusing on student athletes and families. Our programs
@@ -161,7 +162,7 @@ class About extends Component {
                 <Row>
                   <Col xs="10">
                     <h3 className="aboutText headerFontSize">
-                      Meet the Coaches
+                      MEET THE COACHES
                     </h3>
                   </Col>
                   <Col xs="1" />
@@ -170,7 +171,7 @@ class About extends Component {
                   <Col xs="2">
                     <img className="coachPic" src={anthonyPic} />
                     <p className="textFontSize">
-                      <b> Anthony Melvin</b>
+                      <b>Anthony Melvin</b>
                     </p>
                     <br />
                   </Col>
@@ -202,8 +203,22 @@ class About extends Component {
                   </Col>
                   <Col xs="10">
                     <p className="coachText textFontSize">
-                      It's a yak! Specialties are strength training and
-                      developing a strength training program.
+                        As a young student, Lynee knew exactly how she could combine her passion for science with
+                        her athletic talents. She was only 14 when she started programming workouts, coordinating her
+                        high school’s basketball team conditioning. Today, she serves as a personal trainer and
+                        strength training programmer for We Global Sports.
+                        <br /><br />
+
+                        Lynee has worked with several All-American athletes in a variety of sports and understands that
+                        different sports and even positions within the same sport have different biomechanical and
+                        physiological requirements. She uses her knowledge of biomechanics, physics, physiology, and
+                        sports to develop training programs that are totally dependent upon the needs of the athlete.
+                        <br /><br />
+
+                        Lynee is certified as a  Strength & Conditioning Specialist through the National Strength &
+                        Conditioning Association, has studied and conducted research in the world-famous Human
+                        Biomechanics & Physiology Lab in High Point, North Carolina, and has 7 years of industry
+                        experience.
                     </p>
                   </Col>
                   <Col xs="1" />
@@ -211,21 +226,35 @@ class About extends Component {
 
                 <Row>
                   <Col xs="2">
-                    <img className="coachPic" src={yakPic} />
+                    <img className="coachPic" src={charlesPic} />
                     <p className="textFontSize">
                       <b>Charles Thomas</b>
                     </p>
                   </Col>
                   <Col xs="10">
                     <p className="coachText textFontSize">
-                      It's a yak! Special is strength training.
+                        Charles is a personal trainer and bootcamp instructor with a passion for helping others
+                        identify and meet their fitness goals. His fitness and wellness journey started with his six
+                        years of service in the US Marine Corps where he was especially inspired by his bootcamp
+                        training.
+                        <br /><br />
+
+                        Since then, he has put in over 25 years of industry experience providing training, nutrition
+                        counseling, and customer service to a variety of clients ranging from young children to seniors.
+                        In addition to training at We Global, Charles serves as a track coach in Fairfax County high
+                        schools. He is a licensed and insured Personal Trainer certified by the International Sports
+                        Sciences Association (ISSA).
+                        <br /><br />
+
+                        In his free time, Charles enjoy deep sea fishing and traveling abroad where he has even been
+                        known to guest-teach free classes to local communities in Panama and Costa Rica.
                     </p>
                   </Col>
                   <Col xs="1" />
                 </Row>
                 <Row>
                   <Col xs="2">
-                    <img className="coachPic" src={yakPic} />
+                    <img className="coachPic" src={antoinePic} />
                     <p className="textFontSize">
                       <b>Yoga Instructor</b>
                     </p>
@@ -245,7 +274,7 @@ class About extends Component {
           <div>
             <img className="aboutPic" src={aboutPic} />
             <div>
-              <h3 className="aboutText3 headerFontSize2">Our Mission</h3>
+              <h3 className="aboutText3 headerFontSize2">OUR MISSION</h3>
               <h6 className="aboutSubtext3 textFontSize2">
                 I Am Global Sports offers personalized athletic training,
                 focusing on student athletes and families. Our programs include
@@ -261,7 +290,7 @@ class About extends Component {
               <Row>
                 <Col xs="12">
                   <h3 className="aboutText4 headerFontSize2">
-                    Meet the Couches
+                    MEET THE COACHES
                   </h3>
                 </Col>
                 <Col xs="12">
@@ -296,28 +325,56 @@ class About extends Component {
                   </p>
                 </Col>
                 <Col xs="12">
-                  <p className="coachText3 textFontSize2">
-                    It's a yak! Specialties are strength training and developing
-                    a strength training program.
-                  </p>
+                    <p className="coachText3 textFontSize2">
+                        As a young student, Lynee knew exactly how she could combine her passion for science with
+                        her athletic talents. She was only 14 when she started programming workouts, coordinating her
+                        high school’s basketball team conditioning. Today, she serves as a personal trainer and
+                        strength training programmer for We Global Sports.
+                        <br /><br />
+
+                        Lynee has worked with several All-American athletes in a variety of sports and understands that
+                        different sports and even positions within the same sport have different biomechanical and
+                        physiological requirements. She uses her knowledge of biomechanics, physics, physiology, and
+                        sports to develop training programs that are totally dependent upon the needs of the athlete.
+                        <br /><br />
+
+                        Lynee is certified as a  Strength & Conditioning Specialist through the National Strength &
+                        Conditioning Association, has studied and conducted research in the world-famous Human
+                        Biomechanics & Physiology Lab in High Point, North Carolina, and has 7 years of industry
+                        experience.
+                    </p>
                 </Col>
               </Row>
               <Row>
                 <Col xs="12">
-                  <img className="coachPic" src={yakPic} />
+                  <img className="coachPic" src={charlesPic} />
                   <p className="textFontSize2">
                     <b>Charles Thomas</b>
                   </p>
                 </Col>
                 <Col xs="12">
                   <p className="coachText3 textFontSize2">
-                    It's a yak! Special is strength training.
+                      Charles is a personal trainer and bootcamp instructor with a passion for helping others
+                      identify and meet their fitness goals. His fitness and wellness journey started with his six
+                      years of service in the US Marine Corps where he was especially inspired by his bootcamp
+                      training.
+                      <br /><br />
+
+                      Since then, he has put in over 25 years of industry experience providing training, nutrition
+                      counseling, and customer service to a variety of clients ranging from young children to seniors.
+                      In addition to training at We Global, Charles serves as a track coach in Fairfax County high
+                      schools. He is a licensed and insured Personal Trainer certified by the International Sports
+                      Sciences Association (ISSA).
+                      <br /><br />
+
+                      In his free time, Charles enjoy deep sea fishing and traveling abroad where he has even been
+                      known to guest-teach free classes to local communities in Panama and Costa Rica.
                   </p>
                 </Col>
               </Row>
               <Row>
                 <Col xs="12">
-                  <img className="coachPic" src={yakPic} />
+                  <img className="coachPic" src={antoinePic} />
                   <p className="textFontSize2">
                     <b>Yoga Instructor</b>
                   </p>
@@ -336,12 +393,3 @@ class About extends Component {
   }
 }
 export default About;
-
-// <div className="coachDiv">
-//   <h3>Coaches</h3>
-//   <br />
-//   <div>
-//
-//
-//   </div>
-// </div>

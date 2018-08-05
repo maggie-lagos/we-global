@@ -198,7 +198,7 @@ class Home extends Component {
                   <b className="textFontSize">Hours of Operation</b>
                 </div>
                 <p className="textFontSize">
-                  Monday-Saturday 6am-10pm <br />
+                  Monday-Saturday 6AM-10PM <br />
                   By appointment only.
                 </p>
                 <div>
@@ -215,7 +215,7 @@ class Home extends Component {
                 <img className="facilityPic" src={slideshowPic3} />
 
                 <div className="textFontSize">
-                  Featuring indoor turf and a group fitness room
+                  Our facility features indoor turf furnished with cross-training equipment and a group fitness room.
                 </div>
               </Col>
               <Col xs="1" />
@@ -253,7 +253,7 @@ class Home extends Component {
                   <b className="textFontSize">Hours of Operation</b>
                 </div>
                 <p className="textFontSize">
-                  Monday-Saturday 6am-10pm <br />
+                  Monday-Saturday 6AM-10PM <br />
                   By appointment only.
                 </p>
                 <div>
@@ -269,7 +269,7 @@ class Home extends Component {
                 <img className="facilityPic" src={slideshowPic2} />
                 <img className="facilityPic" src={slideshowPic3} />
                 <div className="textFontSize">
-                  Featuring indoor turf and a group fitness room
+                    Our facility features indoor turf furnished with cross-training equipment and a group fitness room.
                 </div>
               </Col>
               <Col xs="1" />
@@ -323,7 +323,7 @@ class Home extends Component {
                 <img className="facilityPic" src={slideshowPic2} />
                 <img className="facilityPic" src={slideshowPic3} />
                 <div className="textFontSize">
-                  Featuring indoor turf and a group fitness room
+                    Our facility features indoor turf furnished with cross-training equipment and a group fitness room.
                 </div>
               </Col>
               <Col xs="1" />
@@ -378,7 +378,7 @@ class Home extends Component {
                 <img className="facilityPic" src={slideshowPic2} />
                 <img className="facilityPic" src={slideshowPic3} />
                 <div className="textFontSize2">
-                  Featuring indoor turf and a group fitness room
+                    Our facility features indoor turf furnished with cross-training equipment and a group fitness room.
                 </div>
               </Col>
               <Col xs="1" />
