@@ -11,7 +11,6 @@
 }
 .aboutText {
   font-family: sans-serif;
-  margin-left: 6%;
 }
 
 .aboutText3 {
@@ -25,7 +24,7 @@
 
 .aboutSubtext {
   font-family: sans-serif;
-  margin-left: 3%;
+  padding-right: 1vw;
 }
 
 .aboutSubtext3 {
