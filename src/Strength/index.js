@@ -144,15 +144,27 @@ class Strength extends Component {
               </Col>
               <Col xs="1" />
               <Col xs="4" className="eventDiv">
-                <h4>Pricing and Availability</h4>
-                <div>Bootcamp sessions are offered from: </div>{' '}
-                <div>
-                  {' '}
-                  6am to 10pm Monday through Saturday (i know this is wrong)
-                </div>
-                <br />
-                <div>Single session: $</div>
-                <div>Single Month of sessions(?): $</div>
+                <h4>Availability and Pricing</h4>
+                  <div>
+                      <b className="textFontSize">Schedule </b>
+                  </div>{' '}
+                  <div className="textFontSize">
+                      {' '}
+                      Monday-Saturday 6AM-10PM <br />
+                  </div>
+                  <br />
+                  <div>
+                      <p className="textFontSize">
+                          <b>Individual</b>
+                          <br />
+                          1 Session $80 <br />
+                          8 Session $600 <br />
+                          12 Session $850 <br />
+                          16 Session $1040 <br />
+                          24 Session $ 1400 <br />
+                      </p>
+                      All packages include LMPTrainingSolutions customized program and a standardized meal plan.
+                  </div>
               </Col>
             </Row>
             <br />
@@ -184,15 +196,27 @@ class Strength extends Component {
             <Row>
               <Col xs="1" />
               <Col xs="10" className="facilityDiv">
-                <h4>Pricing and Availability</h4>
-                <div>Bootcamp sessions are offered from: </div>{' '}
-                <div>
-                  {' '}
-                  6am to 10pm Monday through Saturday (i know this is wrong)
-                </div>
-                <br />
-                <div>Single session: $</div>
-                <div>Single Month of sessions(?): $</div>
+                <h4>Availability and Pricing</h4>
+                  <div>
+                      <b className="textFontSize">Schedule </b>
+                  </div>{' '}
+                  <div className="textFontSize">
+                      {' '}
+                      Monday-Saturday 6AM-10PM <br />
+                  </div>
+                  <br />
+                  <div>
+                      <p className="textFontSize">
+                          <b>Individual</b>
+                          <br />
+                          1 Session $80 <br />
+                          8 Session $600 <br />
+                          12 Session $850 <br />
+                          16 Session $1040 <br />
+                          24 Session $ 1400 <br />
+                      </p>
+                      All packages include LMPTrainingSolutions customized program and a standardized meal plan.
+                  </div>
               </Col>
               <Col xs="1" />
             </Row>
