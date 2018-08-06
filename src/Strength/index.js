@@ -157,11 +157,11 @@ class Strength extends Component {
                       <p className="textFontSize">
                           <b>Individual</b>
                           <br />
-                          1 Session $80 <br />
-                          8 Session $600 <br />
-                          12 Session $850 <br />
-                          16 Session $1040 <br />
-                          24 Session $ 1400 <br />
+                          1 Session: $80 <br />
+                          8 Sessions: $600 <br />
+                          12 Sessions: $850 <br />
+                          16 Sessions: $1040 <br />
+                          24 Sessions: $1400 <br />
                       </p>
                       All packages include LMPTrainingSolutions customized program and a standardized meal plan.
                   </div>
@@ -209,11 +209,11 @@ class Strength extends Component {
                       <p className="textFontSize">
                           <b>Individual</b>
                           <br />
-                          1 Session $80 <br />
-                          8 Session $600 <br />
-                          12 Session $850 <br />
-                          16 Session $1040 <br />
-                          24 Session $ 1400 <br />
+                          1 Session: $80 <br />
+                          8 Sessions: $600 <br />
+                          12 Sessions: $850 <br />
+                          16 Sessions: $1040 <br />
+                          24 Sessions: $1400 <br />
                       </p>
                       All packages include LMPTrainingSolutions customized program and a standardized meal plan.
                   </div>
