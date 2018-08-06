@@ -111,7 +111,7 @@ class Yoga extends Component {
           <a
             target="_blank"
             className="scheduleLink yogaFont "
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdSUC2RgR8GMoi-btk4lztNWkNVjeGzDMuSG1aQ7Tfb5NJbZg/viewform?edit2=2_ABaOnucnTdfAOBaklV2ZGDU_BsmM1k2mDkT1X3sN4t5IFTXvWVRztGkDMFqVDW0"
+            href="https://goo.gl/forms/rGFHBwSn91uo4JZt2"
           >
             questionnaire
           </a>.
