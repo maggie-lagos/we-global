@@ -203,27 +203,34 @@ class About extends Component {
                   </Col>
                   <Col xs="10">
                     <p className="coachText textFontSize">
-                        As a young student, Lynee knew exactly how she could combine her passion for science with
-                        her athletic talents. She was only 14 when she started programming workouts, coordinating her
-                        high school’s basketball team conditioning. Today, she serves as a personal trainer and
-                        strength training programmer for We Global Sports.
-                        <br /><br />
-
-                        Lynee has worked with several All-American athletes in a variety of sports and understands that
-                        different sports and even positions within the same sport have different biomechanical and
-                        physiological requirements. She uses her knowledge of biomechanics, physics, physiology, and
-                        sports to develop training programs that are totally dependent upon the needs of the athlete.
-                        <br /><br />
-
-                        Lynee is certified as a  Strength & Conditioning Specialist through the National Strength &
-                        Conditioning Association, has studied and conducted research in the world-famous Human
-                        Biomechanics & Physiology Lab in High Point, North Carolina, and has 7 years of industry
-                        experience.
+                      As a young student, Lynee knew exactly how she could
+                      combine her passion for science with her athletic talents.
+                      She was only 14 when she started programming workouts,
+                      coordinating her high school’s basketball team
+                      conditioning. Today, she serves as a personal trainer and
+                      strength training programmer for We Global Sports.
+                      <br />
+                      <br />
+                      Lynee has worked with several All-American athletes in a
+                      variety of sports and understands that different sports
+                      and even positions within the same sport have different
+                      biomechanical and physiological requirements. She uses her
+                      knowledge of biomechanics, physics, physiology, and sports
+                      to develop training programs that are totally dependent
+                      upon the needs of the athlete.
+                      <br />
+                      <br />
+                      Lynee is certified as a Strength & Conditioning Specialist
+                      through the National Strength & Conditioning Association,
+                      has studied and conducted research in the world-famous
+                      Human Biomechanics & Physiology Lab in High Point, North
+                      Carolina, and has 7 years of industry experience.
                     </p>
                   </Col>
                   <Col xs="1" />
                 </Row>
-
+                <br />
+                <br />
                 <Row>
                   <Col xs="2">
                     <img className="coachPic" src={charlesPic} />
@@ -233,25 +240,33 @@ class About extends Component {
                   </Col>
                   <Col xs="10">
                     <p className="coachText textFontSize">
-                        Charles is a personal trainer and bootcamp instructor with a passion for helping others
-                        identify and meet their fitness goals. His fitness and wellness journey started with his six
-                        years of service in the US Marine Corps where he was especially inspired by his bootcamp
-                        training.
-                        <br /><br />
-
-                        Since then, he has put in over 25 years of industry experience providing training, nutrition
-                        counseling, and customer service to a variety of clients ranging from young children to seniors.
-                        In addition to training at We Global, Charles serves as a track coach in Fairfax County high
-                        schools. He is a licensed and insured Personal Trainer certified by the International Sports
-                        Sciences Association (ISSA).
-                        <br /><br />
-
-                        In his free time, Charles enjoy deep sea fishing and traveling abroad where he has even been
-                        known to guest-teach free classes to local communities in Panama and Costa Rica.
+                      Charles is a personal trainer and bootcamp instructor with
+                      a passion for helping others identify and meet their
+                      fitness goals. His fitness and wellness journey started
+                      with his six years of service in the US Marine Corps where
+                      he was especially inspired by his bootcamp training.
+                      <br />
+                      <br />
+                      Since then, he has put in over 25 years of industry
+                      experience providing training, nutrition counseling, and
+                      customer service to a variety of clients ranging from
+                      young children to seniors. In addition to training at We
+                      Global, Charles serves as a track coach in Fairfax County
+                      high schools. He is a licensed and insured Personal
+                      Trainer certified by the International Sports Sciences
+                      Association (ISSA).
+                      <br />
+                      <br />
+                      In his free time, Charles enjoy deep sea fishing and
+                      traveling abroad where he has even been known to
+                      guest-teach free classes to local communities in Panama
+                      and Costa Rica.
                     </p>
                   </Col>
                   <Col xs="1" />
                 </Row>
+                <br />
+                <br />
                 <Row>
                   <Col xs="2">
                     <img className="coachPic" src={antoinePic} />
@@ -325,24 +340,30 @@ class About extends Component {
                   </p>
                 </Col>
                 <Col xs="12">
-                    <p className="coachText3 textFontSize2">
-                        As a young student, Lynee knew exactly how she could combine her passion for science with
-                        her athletic talents. She was only 14 when she started programming workouts, coordinating her
-                        high school’s basketball team conditioning. Today, she serves as a personal trainer and
-                        strength training programmer for We Global Sports.
-                        <br /><br />
-
-                        Lynee has worked with several All-American athletes in a variety of sports and understands that
-                        different sports and even positions within the same sport have different biomechanical and
-                        physiological requirements. She uses her knowledge of biomechanics, physics, physiology, and
-                        sports to develop training programs that are totally dependent upon the needs of the athlete.
-                        <br /><br />
-
-                        Lynee is certified as a  Strength & Conditioning Specialist through the National Strength &
-                        Conditioning Association, has studied and conducted research in the world-famous Human
-                        Biomechanics & Physiology Lab in High Point, North Carolina, and has 7 years of industry
-                        experience.
-                    </p>
+                  <p className="coachText3 textFontSize2">
+                    As a young student, Lynee knew exactly how she could combine
+                    her passion for science with her athletic talents. She was
+                    only 14 when she started programming workouts, coordinating
+                    her high school’s basketball team conditioning. Today, she
+                    serves as a personal trainer and strength training
+                    programmer for We Global Sports.
+                    <br />
+                    <br />
+                    Lynee has worked with several All-American athletes in a
+                    variety of sports and understands that different sports and
+                    even positions within the same sport have different
+                    biomechanical and physiological requirements. She uses her
+                    knowledge of biomechanics, physics, physiology, and sports
+                    to develop training programs that are totally dependent upon
+                    the needs of the athlete.
+                    <br />
+                    <br />
+                    Lynee is certified as a Strength & Conditioning Specialist
+                    through the National Strength & Conditioning Association,
+                    has studied and conducted research in the world-famous Human
+                    Biomechanics & Physiology Lab in High Point, North Carolina,
+                    and has 7 years of industry experience.
+                  </p>
                 </Col>
               </Row>
               <Row>
@@ -354,21 +375,26 @@ class About extends Component {
                 </Col>
                 <Col xs="12">
                   <p className="coachText3 textFontSize2">
-                      Charles is a personal trainer and bootcamp instructor with a passion for helping others
-                      identify and meet their fitness goals. His fitness and wellness journey started with his six
-                      years of service in the US Marine Corps where he was especially inspired by his bootcamp
-                      training.
-                      <br /><br />
-
-                      Since then, he has put in over 25 years of industry experience providing training, nutrition
-                      counseling, and customer service to a variety of clients ranging from young children to seniors.
-                      In addition to training at We Global, Charles serves as a track coach in Fairfax County high
-                      schools. He is a licensed and insured Personal Trainer certified by the International Sports
-                      Sciences Association (ISSA).
-                      <br /><br />
-
-                      In his free time, Charles enjoy deep sea fishing and traveling abroad where he has even been
-                      known to guest-teach free classes to local communities in Panama and Costa Rica.
+                    Charles is a personal trainer and bootcamp instructor with a
+                    passion for helping others identify and meet their fitness
+                    goals. His fitness and wellness journey started with his six
+                    years of service in the US Marine Corps where he was
+                    especially inspired by his bootcamp training.
+                    <br />
+                    <br />
+                    Since then, he has put in over 25 years of industry
+                    experience providing training, nutrition counseling, and
+                    customer service to a variety of clients ranging from young
+                    children to seniors. In addition to training at We Global,
+                    Charles serves as a track coach in Fairfax County high
+                    schools. He is a licensed and insured Personal Trainer
+                    certified by the International Sports Sciences Association
+                    (ISSA).
+                    <br />
+                    <br />
+                    In his free time, Charles enjoy deep sea fishing and
+                    traveling abroad where he has even been known to guest-teach
+                    free classes to local communities in Panama and Costa Rica.
                   </p>
                 </Col>
               </Row>
