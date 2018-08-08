@@ -18,9 +18,8 @@ import {
 } from 'reactstrap';
 
 import logoPic from '../images/Logo.png';
-
 import aboutPic from '../images/about-us-header.png';
-import antoinePic from '../images/bio-antoine.png';
+
 import anthonyPic from '../images/bio-anthony.jpg';
 import lyneePic from '../images/bio-lynee.jpg';
 import charlesPic from '../images/bio-charles.png';
@@ -146,7 +145,7 @@ class About extends Component {
                     <h6 className="aboutSubtext textFontSize">
                       I Am Global Sports offers personalized athletic training,
                       focusing on student athletes and families. Our programs
-                      include individual strength training, our specialty
+                      include individual strength training, our customized
                       Vertimax training, yoga classes, and adult bootcamp
                       classes. Whether you are a student athlete looking to step
                       up your game, a parent wanting to stay active, or simply
@@ -265,22 +264,6 @@ class About extends Component {
                   </Col>
                   <Col xs="1" />
                 </Row>
-                <br />
-                <br />
-                <Row>
-                  <Col xs="2">
-                    <img className="coachPic" src={antoinePic} />
-                    <p className="textFontSize">
-                      <b>Yoga Instructor</b>
-                    </p>
-                  </Col>
-                  <Col xs="10">
-                    <p className="coachText textFontSize">
-                      It's a yak! Special is strength training.
-                    </p>
-                  </Col>
-                  <Col xs="1" />
-                </Row>
               </div>
             </Container>
           </div>
@@ -293,7 +276,7 @@ class About extends Component {
               <h6 className="aboutSubtext3 textFontSize2">
                 I Am Global Sports offers personalized athletic training,
                 focusing on student athletes and families. Our programs include
-                individual strength training, our specialty Vertimax training,
+                individual strength training, our customized Vertimax training,
                 yoga classes, and adult bootcamp classes. Whether you are a
                 student athlete looking to step up your game, a parent wanting
                 to stay active, or simply looking for an effective and
@@ -395,19 +378,6 @@ class About extends Component {
                     In his free time, Charles enjoy deep sea fishing and
                     traveling abroad where he has even been known to guest-teach
                     free classes to local communities in Panama and Costa Rica.
-                  </p>
-                </Col>
-              </Row>
-              <Row>
-                <Col xs="12">
-                  <img className="coachPic" src={antoinePic} />
-                  <p className="textFontSize2">
-                    <b>Yoga Instructor</b>
-                  </p>
-                </Col>
-                <Col xs="12">
-                  <p className="coachText3 textFontSize2">
-                    It's a yak! Special is strength training.
                   </p>
                 </Col>
               </Row>
