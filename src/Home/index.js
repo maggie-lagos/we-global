@@ -169,7 +169,7 @@ class Home extends Component {
               LEVEL.
             </h4>
             <p className="whoWeAreText textFontSize">
-              I Am Global Sports offers personalized athletic training, focusing
+              IAmGlobal Sports offers personalized athletic training, focusing
               on student athletes and their families.
             </p>
             <p className="whoWeAreText" />
@@ -182,7 +182,7 @@ class Home extends Component {
               LEVEL.
             </h4>
             <p className="whoWeAreText textFontSize2">
-              I Am Global Sports offers personalized athletic training, focusing
+              IAmGlobal Sports offers personalized athletic training, focusing
               on student athletes and their families.
             </p>
             <p className="whoWeAreText" />
@@ -215,7 +215,8 @@ class Home extends Component {
                 <img className="facilityPic" src={slideshowPic3} />
 
                 <div className="textFontSize">
-                  Our facility features indoor turf furnished with cross-training equipment and a group fitness room.
+                  Our facility features indoor turf furnished with
+                  cross-training equipment and a group fitness room.
                 </div>
               </Col>
               <Col xs="1" />
@@ -269,7 +270,8 @@ class Home extends Component {
                 <img className="facilityPic" src={slideshowPic2} />
                 <img className="facilityPic" src={slideshowPic3} />
                 <div className="textFontSize">
-                    Our facility features indoor turf furnished with cross-training equipment and a group fitness room.
+                  Our facility features indoor turf furnished with
+                  cross-training equipment and a group fitness room.
                 </div>
               </Col>
               <Col xs="1" />
@@ -323,7 +325,8 @@ class Home extends Component {
                 <img className="facilityPic" src={slideshowPic2} />
                 <img className="facilityPic" src={slideshowPic3} />
                 <div className="textFontSize">
-                    Our facility features indoor turf furnished with cross-training equipment and a group fitness room.
+                  Our facility features indoor turf furnished with
+                  cross-training equipment and a group fitness room.
                 </div>
               </Col>
               <Col xs="1" />
@@ -378,7 +381,8 @@ class Home extends Component {
                 <img className="facilityPic" src={slideshowPic2} />
                 <img className="facilityPic" src={slideshowPic3} />
                 <div className="textFontSize2">
-                    Our facility features indoor turf furnished with cross-training equipment and a group fitness room.
+                  Our facility features indoor turf furnished with
+                  cross-training equipment and a group fitness room.
                 </div>
               </Col>
               <Col xs="1" />
