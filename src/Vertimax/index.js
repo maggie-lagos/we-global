@@ -158,7 +158,7 @@ class Vertimax extends Component {
                   athletes.
                 </p>
                 <br />
-                <Link to="/events" className="scheduleLink textFontSize">
+                <Link to="/events" className="scheduleLink">
                   Reserve your spot now!
                 </Link>
               </Col>
@@ -243,7 +243,7 @@ class Vertimax extends Component {
                   athletes.
                 </p>
                 <br />
-                <Link to="/events" className="scheduleLink textFontSize2">
+                <Link to="/events" className="scheduleLink">
                   Reserve your spot now!
                 </Link>
               </Col>
