@@ -142,7 +142,7 @@ class About extends Component {
                 <Row>
                   <Col xs="12">
                     <h3 className="aboutText headerFontSize">OUR MISSION</h3>
-                    <h6 className="aboutSubtext textFontSize">
+                    <p className="aboutSubtext textFontSize">
                       I Am Global Sports offers personalized athletic training,
                       focusing on student athletes and families. Our programs
                       include individual strength training, our customized
@@ -151,7 +151,7 @@ class About extends Component {
                       up your game, a parent wanting to stay active, or simply
                       looking for an effective and injury-preventive routine, I
                       Am Global Sports has a training program designed for you.
-                    </h6>
+                    </p>
                   </Col>
                 </Row>
               </div>
@@ -273,7 +273,7 @@ class About extends Component {
             <img className="aboutPic" src={aboutPic} />
             <div>
               <h3 className="aboutText3 headerFontSize2">OUR MISSION</h3>
-              <h6 className="aboutSubtext3 textFontSize2">
+              <p className="aboutSubtext3 textFontSize2">
                 I Am Global Sports offers personalized athletic training,
                 focusing on student athletes and families. Our programs include
                 individual strength training, our customized Vertimax training,
@@ -282,7 +282,7 @@ class About extends Component {
                 to stay active, or simply looking for an effective and
                 injury-preventive routine, I Am Global Sports has a training
                 program designed for you.
-              </h6>
+              </p>
             </div>
             <Container className="containerStyle">
               <Row>

@@ -67,16 +67,20 @@
 
 .headerFontSize {
   font-size: 1.8vw;
+  font-family: sans-serif;
 }
 
 .headerFontSize2 {
   font-size: 4.8vw;
+  font-family: sans-serif;
 }
 
 .textFontSize {
   font-size: 1.2vw;
+  font-family: sans-serif;
 }
 
 .textFontSize2 {
   font-size: 3.2vw;
+  font-family: sans-serif;
 }

@@ -209,7 +209,7 @@ class Contact extends Component {
             <h2 className="headerFontSize">Contact Us</h2>
             <br />
             <p className="textFontSize">
-              We are always happy to respond to your questions and concerns.
+              We are always happy to respond to your questions or inquiries.
             </p>
           </div>
         )}
@@ -219,7 +219,7 @@ class Contact extends Component {
             <h2 className="headerFontSize2">Contact Us</h2>
             <br />
             <p className="textFontSize2">
-              We are always happy to respond to your questions and concerns.
+              We are always happy to respond to your questions or inquiries.
             </p>
           </div>
         )}
