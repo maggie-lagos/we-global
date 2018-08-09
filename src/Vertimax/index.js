@@ -242,7 +242,6 @@ class Vertimax extends Component {
                   By scheduled appointment only. Each session is limited to 4
                   athletes.
                 </p>
-                <br />
                 <Link to="/events" className="scheduleLink textFontSize2">
                   Reserve your spot now!
                 </Link>

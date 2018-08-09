@@ -155,7 +155,6 @@ class Strength extends Component {
                   of your athletic level, our training tools and equipment will
                   be sure to keep you challenged, engaged, and safe.
                 </p>
-                <br />
                 <Link to="/contact" className="scheduleLink">
                   Appointments available by email only.
                 </Link>
@@ -222,7 +221,6 @@ class Strength extends Component {
                   of your athletic level, our training tools and equipment will
                   be sure to keep you challenged, engaged, and safe.
                 </p>
-                <br />
                 <Link to="/contact" className="scheduleLink">
                   Appointments available by email only.
                 </Link>{' '}
