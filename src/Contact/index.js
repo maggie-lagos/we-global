@@ -39,6 +39,8 @@ class Contact extends Component {
       phone: '',
       email: '',
       msg: '',
+      successMessage: '',
+      errorMessage: '',
     };
 
     this.updatePredicate = this.updatePredicate.bind(this);
@@ -48,6 +50,7 @@ class Contact extends Component {
     this.handleEmailChange = this.handleEmailChange.bind(this);
 
     this.handleMsgChange = this.handleMsgChange.bind(this);
+    this.validateContactForm = this.validateContactForm.bind(this);
   }
 
   componentDidMount() {
@@ -115,49 +118,65 @@ class Contact extends Component {
   }
 
   // Return error string
-  validateContactForm(contactFormData){
-      var Namere = /[A-Za-z]{1}[A-Za-z]/;
-      if (!Namere.test(contactFormData.name)) {
-          alert ("Name can not less than 2 char");
-          return;
-      }
-      var mobilere = /[0-9]{10}/;
-      if (!mobilere.test(contactFormData.phone)) {
-          alert ("Please enter valid phone number");
-          return;
-      }
-      if (contactFormData.msg == "") {
-          alert ("Please enter your email message");
-          return;
-      }
+  validateContactForm() {
+    var namere = /[A-Za-z]{1}[A-Za-z]/;
+    var mobilere = /[0-9]{10}/;
+    var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
 
-      var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
-      if (!reeamil.test(contactFormData.email)) {
-          alert ("Please enter valid email address");
-          return;
-      }
+    if (!namere.test(this.state.name)) {
+      this.setState({
+        errorMessage: 'Name cannot be less than 2 characters',
+        successMessage: '',
+      });
+      return false;
+    } else if (!mobilere.test(this.state.phone)) {
+      this.setState({
+        errorMessage: 'Please enter valid phone number',
+        successMessage: '',
+      });
+      return false;
+    } else if (this.state.email == '') {
+      this.setState({
+        errorMessage: 'Please enter your email address',
+        successMessage: '',
+      });
+      return false;
+    } else if (!reeamil.test(this.state.email)) {
+      this.setState({
+        errorMessage: 'Please enter valid email address',
+        successMessage: '',
+      });
+      return false;
+    }
+    return true;
   }
 
   submitForm() {
-    console.log(this.state);
-    let toSend = {
-      name: this.state.name,
-      phone: this.state.phone,
-      email: this.state.email,
-      msg: this.state.msg,
-      headers: { 'Access-Control-Allow-Origin': '*' },
-    };
-    axios
-      .post(
-        'https://e55s91fpvb.execute-api.us-east-1.amazonaws.com/test2/contact',
-        toSend,
-      )
-      .then(response => {
-        console.log(response);
-      })
-      .catch(err => {
-        console.log(err);
-      });
+    if (this.validateContactForm()) {
+      let toSend = {
+        name: this.state.name,
+        phone: this.state.phone,
+        email: this.state.email,
+        msg: this.state.msg,
+        headers: { 'Access-Control-Allow-Origin': '*' },
+      };
+      axios
+        .post(
+          'https://e55s91fpvb.execute-api.us-east-1.amazonaws.com/prod/contact',
+
+          toSend,
+        )
+        .then(response => {
+          console.log(response);
+          this.setState({
+            successMessage: 'Sent!',
+            errorMessage: '',
+          });
+        })
+        .catch(err => {
+          console.log(err);
+        });
+    }
   }
   render() {
     return (
@@ -230,6 +249,13 @@ class Contact extends Component {
         {!this.state.isPhone && (
           <div>
             <br />
+            <div>
+              <b className="successMessage">{this.state.successMessage}</b>
+            </div>
+            <div>
+              <b className="errorMessage">{this.state.errorMessage}</b>
+            </div>
+            <br />
             <h2 className="headerFontSize">Contact Us</h2>
             <br />
             <p className="textFontSize">
@@ -240,8 +266,16 @@ class Contact extends Component {
         {this.state.isPhone && (
           <div>
             <br />
+
+            <br />
             <h2 className="headerFontSize2">Contact Us</h2>
             <br />
+            <div>
+              <b className="successMessage">{this.state.successMessage}</b>
+            </div>
+            <div>
+              <b className="errorMessage">{this.state.errorMessage}</b>
+            </div>
             <p className="textFontSize2">
               We are always happy to respond to your questions or inquiries.
             </p>

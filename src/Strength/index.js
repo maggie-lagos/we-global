@@ -160,7 +160,7 @@ class Strength extends Component {
                 </Link>
               </Col>
               <Col xs="1" />
-              <Col xs="4" className="eventDiv">
+              <Col xs="4" className="eventDiv headerFontSize">
                 <h4>Availability and Pricing</h4>
                 <div>
                   <b className="textFontSize">Schedule </b>
