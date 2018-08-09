@@ -307,7 +307,7 @@ class Home extends Component {
                   <b className="textFontSize">Hours of Operation</b>
                 </div>
                 <p className="textFontSize">
-                  Monday-Saturday 6am-10pm <br />
+                  Monday-Saturday 6AM-10PM <br />
                   By appointment only.
                 </p>
                 <div>

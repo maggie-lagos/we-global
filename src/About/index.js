@@ -143,14 +143,14 @@ class About extends Component {
                   <Col xs="12">
                     <h3 className="aboutText headerFontSize">OUR MISSION</h3>
                     <p className="aboutSubtext textFontSize">
-                      I Am Global Sports offers personalized athletic training,
+                      IAmGlobal Sports offers personalized athletic training,
                       focusing on student athletes and families. Our programs
                       include individual strength training, our customized
                       Vertimax training, yoga classes, and adult bootcamp
                       classes. Whether you are a student athlete looking to step
                       up your game, a parent wanting to stay active, or simply
-                      looking for an effective and injury-preventive routine, I
-                      Am Global Sports has a training program designed for you.
+                      looking for an effective and injury-preventive routine,
+                      IAmGlobal Sports has a training program designed for you.
                     </p>
                   </Col>
                 </Row>
@@ -176,18 +176,25 @@ class About extends Component {
                   </Col>
                   <Col xs="10">
                     <p className="coachText textFontSize">
-                      Anthony is the humble founder of I Am Global Sports. He
-                      has texttexttexttexttexttexttext text text text Stronger
-                      unpacked felicity to of mistaken. Fanny at wrong table ye
-                      in. Be on easily cannot innate in lasted months on.
-                      Differed and and felicity steepest mrs age outweigh.
-                      Opinions learning likewise daughter now age outweigh.
-                      Raptures stanhill my greatest mistaken or exercise he on
-                      although. Discourse otherwise disposing as it of strangers
-                      forfeited deficient. Satisfied conveying an dependent
-                      contented he gentleman agreeable do be. Warrant private
-                      blushes removed an in equally totally if. Delivered
-                      dejection necessary objection do mr prevailed. Mr feeling
+                        Anthony is the humble founder of IAmGlobal Sports. He is a certified International Sports
+                        Sciences Association (ISSA) Fitness Trainer and a certified Vertimax Athletic Trainer with over
+                        9 years of personal training experience helping adults and youth alike improve their athletic
+                        fitness through strength training, flexibility training, plyometric routines, and his specialty
+                        - Vertimax training. Anthony also has over 5 years of experience as a Physical Therapy Technician
+                        which has influenced his training style to be as effective as it is injury-preventative.
+                        <br /><br />
+
+                        He is honored to have worked with incredible athletes who are visible playing collegiate sports
+                        on national television, have earned Division 1 athletic scholarships, and have won Free Lance
+                        Star’s Player of the Year. Athletic training and coaching has become a passionate, rewarding
+                        endeavor and he is looking forward to providing this type of training for years to come.
+                        <br /><br />
+
+                        Anthony was a student athlete through college and while he pursued a career in basketball, it was
+                        his son and his son’s own interest in sports that ultimately led him to fitness training.
+                        Basketball is still a part of Anthony’s life, where his experience has taken him through leading
+                        individual and group basketball skills, working as a high school basketball official,
+                        and lately, practicing layups against his son.
                     </p>
                     <br />
                   </Col>
@@ -274,13 +281,13 @@ class About extends Component {
             <div>
               <h3 className="aboutText3 headerFontSize2">OUR MISSION</h3>
               <p className="aboutSubtext3 textFontSize2">
-                I Am Global Sports offers personalized athletic training,
+                IAmGlobal Sports offers personalized athletic training,
                 focusing on student athletes and families. Our programs include
                 individual strength training, our customized Vertimax training,
                 yoga classes, and adult bootcamp classes. Whether you are a
                 student athlete looking to step up your game, a parent wanting
                 to stay active, or simply looking for an effective and
-                injury-preventive routine, I Am Global Sports has a training
+                injury-preventive routine, IAmGlobal Sports has a training
                 program designed for you.
               </p>
             </div>
@@ -299,18 +306,25 @@ class About extends Component {
                 </Col>
                 <Col xs="12">
                   <p className="coachText3 textFontSize2">
-                    Anthony is the humble founder of I Am Global Sports. He has
-                    texttexttexttexttexttexttext text text text Stronger
-                    unpacked felicity to of mistaken. Fanny at wrong table ye
-                    in. Be on easily cannot innate in lasted months on. Differed
-                    and and felicity steepest mrs age outweigh. Opinions
-                    learning likewise daughter now age outweigh. Raptures
-                    stanhill my greatest mistaken or exercise he on although.
-                    Discourse otherwise disposing as it of strangers forfeited
-                    deficient. Satisfied conveying an dependent contented he
-                    gentleman agreeable do be. Warrant private blushes removed
-                    an in equally totally if. Delivered dejection necessary
-                    objection do mr prevailed. Mr feeling
+                      Anthony is the humble founder of IAmGlobal Sports. He is a certified International Sports
+                      Sciences Association (ISSA) Fitness Trainer and a certified Vertimax Athletic Trainer with over
+                      9 years of personal training experience helping adults and youth alike improve their athletic
+                      fitness through strength training, flexibility training, plyometric routines, and his specialty
+                      - Vertimax training. Anthony also has over 5 years of experience as a Physical Therapy Technician
+                      which has influenced his training style to be as effective as it is injury-preventative.
+                      <br /><br />
+
+                      He is honored to have worked with incredible athletes who are visible playing collegiate sports
+                      on national television, have earned Division 1 athletic scholarships, and have won Free Lance
+                      Star’s Player of the Year. Athletic training and coaching has become a passionate, rewarding
+                      endeavor and he is looking forward to providing this type of training for years to come.
+                      <br /><br />
+
+                      Anthony was a student athlete through college and while he pursued a career in basketball, it was
+                      his son and his son’s own interest in sports that ultimately led him to fitness training.
+                      Basketball is still a part of Anthony’s life, where his experience has taken him through leading
+                      individual and group basketball skills, working as a high school basketball official,
+                      and lately, practicing layups against his son.
                   </p>
                   <br />
                 </Col>
