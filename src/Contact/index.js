@@ -114,6 +114,30 @@ class Contact extends Component {
     this.setState({ msg: event.target.value });
   }
 
+  // Return error string
+  validateContactForm(contactFormData){
+      var Namere = /[A-Za-z]{1}[A-Za-z]/;
+      if (!Namere.test(contactFormData.name)) {
+          alert ("Name can not less than 2 char");
+          return;
+      }
+      var mobilere = /[0-9]{10}/;
+      if (!mobilere.test(contactFormData.phone)) {
+          alert ("Please enter valid phone number");
+          return;
+      }
+      if (contactFormData.msg == "") {
+          alert ("Please enter your email message");
+          return;
+      }
+
+      var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+      if (!reeamil.test(contactFormData.email)) {
+          alert ("Please enter valid email address");
+          return;
+      }
+  }
+
   submitForm() {
     console.log(this.state);
     let toSend = {
