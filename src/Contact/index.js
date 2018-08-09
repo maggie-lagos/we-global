@@ -182,7 +182,7 @@ class Contact extends Component {
     return (
       <div className="App">
         <div>
-          <Navbar light expand="md">
+          <Navbar dark expand="md">
             <NavbarBrand href="/home">
               {' '}
               <img className="logo" src={logoPic} />

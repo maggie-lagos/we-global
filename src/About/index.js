@@ -51,7 +51,7 @@ class About extends Component {
   updatePredicate() {
     //  375, 768, 1024, 1366;
 
-    if (window.innerWidth > 375) {
+    if (window.innerWidth > 768) {
       this.setState({
         isNotPhone: true,
         isPhone: false,
@@ -74,7 +74,7 @@ class About extends Component {
     return (
       <div className="App">
         {' '}
-        <Navbar light expand="md">
+        <Navbar dark expand="md">
           <NavbarBrand href="/home">
             {' '}
             <img className="logo" src={logoPic} />
@@ -278,8 +278,10 @@ class About extends Component {
         {this.state.isPhone && (
           <div>
             <img className="aboutPic" src={aboutPic} />
-            <div>
-              <h3 className="aboutText3 headerFontSize2">OUR MISSION</h3>
+              <Container className="containerStyle">
+                  <Row>
+                      <Col xs="12">
+              <h3 className="aboutText4 headerFontSize2">OUR MISSION</h3>
               <p className="aboutSubtext3 textFontSize2">
                 IAmGlobal Sports offers personalized athletic training,
                 focusing on student athletes and families. Our programs include
@@ -290,7 +292,9 @@ class About extends Component {
                 injury-preventive routine, IAmGlobal Sports has a training
                 program designed for you.
               </p>
-            </div>
+                      </Col>
+                  </Row>
+              </Container>
             <Container className="containerStyle">
               <Row>
                 <Col xs="12">

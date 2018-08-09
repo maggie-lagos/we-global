@@ -41,7 +41,7 @@ class Bootcamp extends Component {
     return (
       <div>
         {' '}
-        <Navbar light expand="md">
+        <Navbar dark expand="md">
           <NavbarBrand href="/home">
             {' '}
             <img className="logo" src={logoPic} />

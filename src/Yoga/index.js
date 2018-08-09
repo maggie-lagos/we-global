@@ -42,7 +42,7 @@ class Yoga extends Component {
     return (
       <div>
         {' '}
-        <Navbar light expand="md">
+        <Navbar dark expand="md">
           <NavbarBrand href="/home">
             {' '}
             <img className="logo" src={logoPic} />
@@ -100,8 +100,8 @@ class Yoga extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-        <div className="yogaPicDiv">
-          <img className="yogaPic" src={yogaPic} />
+        <div className="headerPicDiv">
+          <img className="headerPic" src={yogaPic} />
           <div className="yogaText2">COMING SOON</div>
         </div>
         <br />

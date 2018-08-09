@@ -43,3 +43,12 @@ video {
 .yogaFont {
   font-family: sans-serif;
 }
+
+.headerPic {
+  width: 100%;
+  height: auto;
+}
+
+.headerPicDiv {
+  position: relative;
+}
